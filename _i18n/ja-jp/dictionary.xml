@@ -127,7 +127,6 @@
   <block id="97734fa413fa7ffd4abe37881fb6eb11" category="list-text">グローバルファイルキャッシュ管理サーバ</block>
   <block id="2808786adaa0fe45c3d69c07d1075e58" category="list-text">グローバルファイルキャッシュコア</block>
   <block id="85942e5503c1c00d276d3a32787e60ba" category="list-text">Global File Cache Edge （リモートサイトに導入）</block>
-  <block id="fc8176d8f355dbfc4247953d6bf4d346" category="paragraph">グローバルファイルキャッシュコアインスタンスは、選択したバックエンドストレージプラットフォーム（ Cloud Volumes ONTAP 、 Cloud Volumes Service 、 Azure NetApp Files ）を使用してグローバルファイルキャッシュファブリックを構築します。このファブリックを使用すると、非構造化データを単一のデータセットに統合し、パブリッククラウド内の 1 つまたは複数のストレージプラットフォームに格納できます。</block>
   <block id="813fe3f0ec18c33865dff38f15acf6e8" category="inline-image-macro">グローバルファイルキャッシュの詳細を示す図 リモートオフィスとにソフトウェアをインストールして導入する クラウド内の中央サーバー</block>
   <block id="5187ea0e239dfeb5ab25be21adb6c5f7" category="paragraph"><block ref="5187ea0e239dfeb5ab25be21adb6c5f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">サポートされているストレージプラットフォーム</block>
@@ -138,7 +137,6 @@
   <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS の Cloud Volumes ONTAP</block>
   <block id="0f654146c1b65006561ea8e31d5516dc" category="paragraph">この構成では、グローバルファイルキャッシュ管理サーバやグローバルファイルキャッシュコアなど、グローバルファイルキャッシュサーバ側の環境全体を Cloud Manager 内から導入して管理できます。</block>
   <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">手動での導入オプション</block>
-  <block id="2eb40debe07bb6d7b909dce2c34426b1" category="paragraph">グローバルファイルキャッシュ構成は、パブリッククラウドストレージインフラにインストールされた ONTAP 、 Cloud Volumes Service 、 Azure NetApp Files 、 Amazon FSX for Cloud Volumes ONTAP でもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。このインストールでは、 Cloud Manager ではなく、グローバルファイルキャッシュサーバ側のコンポーネントを手動で設定して導入する必要があります。</block>
   <block id="18fdbdb3de2540e1f631602b7bc2010f" category="section-title">グローバルファイルキャッシュの仕組み</block>
   <block id="8564f172539c6a5101d48785899b17a0" category="paragraph">グローバルファイルキャッシュは、アクティブなデータセットをグローバルにリモートオフィスにキャッシュするソフトウェアファブリックを作成します。その結果、ビジネスユーザは透過的なデータアクセスを保証し、グローバルな規模で最適なパフォーマンスを実現できます。</block>
   <block id="c124c2afbd0b581682d787d402d2b2cf" category="inline-image-macro">Edge および Core のグローバルファイルキャッシュコンポーネントを示す図。</block>
@@ -158,7 +156,6 @@
   <block id="ab055fb1c85968bb4f5a4bc4ea101b6f" category="list-text">グローバルネームスペースを使用するための DFS ネームスペース（推奨）。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">グローバルファイルキャッシュの使用コストは、選択したインストールのタイプによって異なります。</block>
-  <block id="1af35f09e9d5c7c17f00c52e436d8840" category="list-text">すべてのインストール環境で、クラウド（ Cloud Volumes ONTAP 、 Cloud Volumes Service 、または Azure NetApp Files ）に 1 つ以上のボリュームを導入する必要があります。その結果、選択したクラウドプロバイダから料金が発生します。</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">すべてのインストールで、クラウドに 2 つ以上の仮想マシン（ VM ）を導入する必要もあります。その結果、選択したクラウドプロバイダから料金が発生します。</block>
   <block id="4fd5c85d8db73f12727e2cf94e421f13" category="list-text">グローバルファイルキャッシュ管理サーバ：</block>
   <block id="771dcff1843f23a97fc2a57e936d4a9f" category="paragraph">Azure では、これは、 27GB のプレミアム SSD を搭載した D2S_V3 または同等の（ vCPU 2 基 / 8GB の RAM ） VM 上で実行されます</block>
@@ -166,7 +163,6 @@
   <block id="a93c3bd09e076f0b8fd65dde3e64a3a5" category="list-text">グローバルファイルキャッシュコア：</block>
   <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">Azure では、 D4s_V3 または 127GB の Premium SSD を搭載した同等の（ vCPU 4 基 / 16GB RAM ） VM で実行されます</block>
   <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンスまたは同等のインスタンス（ 4 vCPU / 16GB RAM ）で実行されます</block>
-  <block id="ef0c50754592fa0cbd6118045a98f2b2" category="list-text">Cloud Volumes ONTAP を使用して Azure または AWS （サポート対象の構成を Cloud Manager を通じて完全に導入）にインストールした場合、年間 3 、 000 ドル（ Global File Cache Edge インスタンスあたり）がサイトあたりで発生します。</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">節約の可能性を計算します</block>
   <block id="379066f65266388704788bf175a05aa9" category="list-text">手動導入オプションを使用してインストールした場合、価格は異なります。コストの概要を確認するには、を参照してください<block ref="72836bf520e34a0460d69e57e5e3610d" category="inline-link-rx"></block> または、グローバルファイルキャッシュソリューションエンジニアに相談して、エンタープライズ環境に最適なオプションについて相談してください。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
@@ -175,9 +171,7 @@
   <block id="3fbdffd6b695a9bc6ac6bcd1e40fd200" category="paragraph">追加の Edge ライセンスを購入するか、サブスクリプションを更新すると、サポート / 運用部門は、サイト数やサブスクリプションの終了日など、ライセンスの詳細を更新します。LMS がサブスクリプションサービスを照会すると、ライセンスの詳細が LMS インスタンスで自動的に更新され、 GFC Core インスタンスおよび Edge インスタンスに適用されます。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">制限</block>
   <block id="077a85a83497688c4768eb7e293d344f" category="list-text">Cloud Manager でサポートされているバージョンのグローバルファイルキャッシュでは、中央ストレージとして使用されるバックエンドストレージプラットフォームが、 Azure または AWS に Cloud Volumes ONTAP のシングルノードまたは HA ペアを導入している作業環境である必要があります。</block>
-  <block id="99f7abe9affc2a21c16a77c9bb170233" category="paragraph">他のストレージプラットフォームやクラウドプロバイダは、現時点では Cloud Manager を使用してサポートされていませんが、従来の導入手順を使用して導入することもできます。</block>
   <block id="01eb0b4b5071a2cfc0876bc37b144a78" category="inline-link-macro">グローバルファイルキャッシュの概要とオンボーディング</block>
-  <block id="3b6e014ea92c423b54ec451d5fea8f9d" category="paragraph">その他の構成、たとえば、 Cloud Volumes Service または Cloud Volumes ONTAP を使用する Microsoft Azure 、 Google Cloud 、 AWS 上のグローバルファイルキャッシュは、従来の手順を使用して引き続きサポートされます。を参照してください <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="8dad639df001ffd300f26b14bb31b017" category="summary">グローバルファイルキャッシュエッジソフトウェアをリモートオフィスにインストールする前に、多くの要件について理解しておく必要があります。</block>
   <block id="880c5f720679786a7ae73fdda6982c7f" category="doc">グローバルファイルキャッシュエッジインスタンスの展開を開始する前に</block>
   <block id="7a285bcce3684231f2e0a4bb8ac77616" category="section-title">必要なリソースをダウンロード</block>
@@ -301,21 +295,10 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">Global File Cache の新機能について説明します。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">Global File Cache の新機能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（バージョン 1.2.0 ）</block>
-  <block id="cd25d0dea9ddd72c58145908f9602867" category="section-title">OpenSSL モジュールがバージョン 1.1.1L にアップグレードされました。</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">これは最新バージョンであり、より安全です。このモジュールは、 GFC エッジと GFC コア間のセキュアな通信に使用されます。</block>
-  <block id="c49811e0cecf194341b2ae059236dc2a" category="section-title">ロギングインフラが強化されました。</block>
   <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021 年 6 月 9 日（バージョン 1.1.0 ）</block>
-  <block id="77e6f4e52a856772d2e09ae19855212a" category="section-title">「エッジ同期」機能が追加されました。</block>
   <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">OpenSSL モジュールがバージョン 1.1.1k にアップグレードされました。</block>
-  <block id="513502857f15915e7acef1b7916eda1b" category="section-title">ライセンス登録ページが更新されました。</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">GFC ライセンス登録ページに、ネットアップのサブスクリプションを通じてライセンスをアクティブ化したときに表示されるライセンス数が追加されました。</block>
-  <block id="5be3d95052c37ddc7c5e08fede5b7beb" category="section-title">2021 年 3 月 21 日（バージョン 1.0.3 ）</block>
-  <block id="d701539c3bff162de55bec2ac786dea9" category="section-title">GFC プロセスを Windows Defender から自動的に除外するためのソフトウェアインストーラのアップデート。</block>
-  <block id="2c7e576e2b46004ee7c7f2138e6b71e2" category="paragraph">グローバルファイルキャッシュソフトウェアインストーラでは、すべての GFC プロセスが Windows Defender ソフトウェアのオンデマンドスキャンから除外されるようになりました。</block>
-  <block id="718c867d7cc0d5ae654df61aed5134dd" category="section-title">新しい [ ポリシー構成 ] タブが構成コンソールに追加されました。</block>
-  <block id="85630a0f5573b7e43d043882435503c0" category="paragraph">この設定タブでは、 GFC コアから事前入力ジョブを追加できます。</block>
-  <block id="23f584e2a92da05ee5a990cefc20a926" category="section-title">パフォーマンスと安定性を向上させながら、メモリ使用量を削減するようにソフトウェアを強化。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">ネットアップでは、 Cloud Manager をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">環境がすべての要件を満たしていることを確認したら、各リモートオフィスにグローバルファイルキャッシュエッジソフトウェアをインストールします。</block>
@@ -461,13 +444,6 @@
   <block id="f207ae57dc9dfe83885fb108696cb88c" category="list-text">設定 UI の [ 事前入力の編集 ] ページに、 Edge ホスト名が正しく表示されるようになりました。</block>
   <block id="9437dcfd300c52c159a6d4703daa54ad" category="list-text">ライセンス登録時にネットアップライセンスサブスクリプションサーバからの JSON 応答を解析する問題が修正されました。</block>
   <block id="e8cdf46b30eda1b6da8eed70347d25ac" category="list-text">事前入力（ TappN ）ログが拡張され、すべてのファイルのファイル転送ステータスが記録されるようになりました。</block>
-  <block id="491d6073a5e0c94c93deb36c81be5dbe" category="section-title">2021 年 4 月 7 日（バージョン 1.0.4 ）</block>
-  <block id="8745f104024449a4797839f221e192a2" category="list-text">QoS パラメータが、制限を超えたユーザだけでなく _all_users に適用されるように QoS 問題が修正されました。</block>
-  <block id="0eb37d2733eb2ea3eb40f8c24e8c6400" category="list-text">NSS のクレデンシャルは、ライセンスシステムに適用する前に検証されるようになりました。</block>
-  <block id="b41a6700f4ecdc68672c9c11626a93f4" category="list-text">GFC ソフトウェアと特定のウィルス対策ソフトウェアの競合状態が修正されました。</block>
-  <block id="c1b67e4a4c76817df9aca841e83485fe" category="list-text">ドロップリース操作中にロック階層に違反した場合にクラッシュが発生しなくなりました。</block>
-  <block id="3f4758f7775b468f31a333f97ab2c2d3" category="list-text">ネットアップライセンスの登録と GFC サブスクリプションベースの登録は、クラウドベースの License Management Server （ LMS ）でのみ可能です。オンプレミスの LMS では、レガシーライセンスを使用する必要があります。</block>
-  <block id="2644e4a83d0eedbd704d3e114114e275" category="list-text">構成時に、 License Manager Client Service （ LMC ）が LMS の IP アドレスではなくホスト名を使用する場合、構成 UI では事前入力のジョブが追加されるようになりました。</block>
   <block id="e5c0b1995108f32cef1dcfc39528d164" category="summary">ネットアップのインテリジェントなグローバルファイルキャッシュを使用することで、分散した従業員のリアルタイムのグローバルファイル共有を実現できます。</block>
   <block id="59d1b154ff5b7aa340f3bb85aa0d59f7" category="doc">Global File Cache のドキュメント</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">グローバルファイルキャッシュを介して共有ファイルにアクセスするためのベストプラクティスについて、ユーザーにトレーニングを行います。</block>
@@ -598,4 +574,38 @@
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">アップグレード時に、正しいバージョンのMicrosoft再配布可能が正しくインストールされていないため、Tumが起動しません。GFCインストーラが修正され、正しいバージョンの再配布が可能になりました。</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">GFC License Manager Service（LMS）では、設定情報が上書きされるのではなく、更新されるようになりました。</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">構成UIは、アップグレードプロセス中に正しいSystem.net.http dllにバインドされるようになりました。</block>
+  <block id="2587d926ced67aed88e0f563b987461b" category="admonition">Windows Server 2016にグローバルファイルキャッシュを導入する場合は、.NET Framework 4.8を使用する必要があります。</block>
+  <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">グローバルファイルキャッシュコアインスタンスは、選択したバックエンドストレージプラットフォーム（Cloud Volumes ONTAP 、Cloud Volumes Service 、 Azure NetApp Files ）を作成してグローバルファイルキャッシュ「ファブリック」を作成します。このファブリックを使用すると、非構造化データをパブリッククラウド内の1つまたは複数のストレージプラットフォームに格納している場合でも、単一のデータセットに統合して一元管理できます。</block>
+  <block id="fc1d446f2d6669bec4ad1659ec4d3e1f" category="paragraph">グローバルファイルキャッシュ構成は、パブリッククラウドストレージインフラにインストールされた ONTAP 、 Cloud Volumes Service 、 Azure NetApp Files 、 Amazon FSX for Cloud Volumes ONTAP でもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。このような環境では、Cloud Managerではなく、グローバルファイルキャッシュサーバ側のコンポーネントを手動で設定して導入する必要があります。</block>
+  <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">すべてのインストール環境で、クラウドに1つ以上のボリューム（Cloud Volumes ONTAP 、Cloud Volumes Service 、Azure NetApp Files など）を導入する必要があります。その結果、選択したクラウドプロバイダから料金が発生します。</block>
+  <block id="bab3e5cc0aa04608e9b8b4265196697d" category="list-text">Cloud Volumes ONTAP とともにAzureまたはAWS（サポート対象の構成をCloud Managerから完全に導入）にインストールする場合、次の2つの料金プランがあります。</block>
+  <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">AzureまたはAWSのCloud Volumes ONTAP システムでは、グローバルファイルキャッシュエッジインスタンスごとに年間3、000ドルを支払うことができます。</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">詳細はこちらをご覧ください</block>
+  <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">または、AzureのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、プロビジョニング済み容量の3TiBごとに、グローバルファイルキャッシュエッジインスタンスを1つ導入できます。<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>。</block>
+  <block id="ff0beb597406ae3edf94ed38baf30c6b" category="paragraph">他のストレージプラットフォームやクラウドプロバイダは、現時点では Cloud Manager を使用してサポートされていませんが、従来の導入手順を使用して導入することもできます。これらの他の構成（Google Cloud、Azure NetApp Files 、Amazon FSX for ONTAP システムでCloud Volumes ONTAP またはCloud Volumes Service を使用するグローバルファイルキャッシュなど）は、従来の手順を使用してサポートされます。を参照してください <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（バージョン2.0）</block>
+  <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">Optimusは、事前入力ジョブ追加設定の日付/時刻パラメータに境界制限を追加することで拡張されています。</block>
+  <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">Optimus PSMで、システムの事前要求の詳細に正しいCPUの詳細が表示されるようになりました。</block>
+  <block id="4ab2e2d92c22b62e2daa6261704b2d7f" category="list-text">コーディネータの詳細の入力と[更新]ボタンのクリックの間のEdge Sync設定中に、UIで例外が修正されました。</block>
+  <block id="4d6386a8d846fb134f2cb55a31f16e13" category="list-text">Optimus UIが強化され'エッジのEdge Sync機能が有効/無効になりました</block>
+  <block id="9f59b2e065c17b264179bc2a32cb9720" category="list-text">Zuoraライセンスアグリゲータ用のLicense Server Managerの日付範囲問題 を修正しました。</block>
+  <block id="1c4027933d3e02d7db8558ca13691cb6" category="list-text">Lease Count情報を表示するためにOptimus PSMを修正</block>
+  <block id="4fed480928967df6ad6ade9613b54583" category="list-text">アップグレード中の構成アップデータ上の固定ライセンス管理サーバのロジック。</block>
+  <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">このリリースには、以下に示す新機能が搭載されています。また、に記載されている問題も修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
+  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure Marketplaceからのグローバルファイルキャッシュの容量ベースの新しいライセンスモデル</block>
+  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新しい「Edge Cache」ライセンスには、「CVO Professional」ライセンスと同じ機能がありますが、グローバルファイルキャッシュのサポートも含まれています。このオプションは、Azureに新しいCloud Volumes ONTAP システムを導入するときに表示されます。Cloud Volumes ONTAP システムでプロビジョニングされた容量3TiBにつき、グローバルファイルキャッシュエッジシステムを1台導入することができます。少なくとも30TiBをプロビジョニングする必要があります。GFC License Managerサービスが拡張され、容量ベースのライセンスが提供されるようになりました。</block>
+  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。</block>
+  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
+  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">グローバルファイルキャッシュがCloud Insights に統合されました</block>
+  <block id="acb729f8fd6ddd0e3a9a1a39397d6274" category="paragraph">NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。</block>
+  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights の詳細については、こちらをご覧ください。</block>
+  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
+  <block id="1f56bc157b53331171e2209738abd411" category="section-title">ライセンス管理サーバは、非常に制限のある環境で動作するように拡張されています</block>
+  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">ライセンスの設定時に、ライセンス管理サーバ（LMS）がインターネットにアクセスして、ネットアップ/ Zuoraからライセンスの詳細を収集できる必要があります。設定が正常に完了すると、LMSはオフラインモードでの作業を継続し、制限のある環境であってもライセンス機能を提供できます。</block>
+  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">OptimusのEdge Sync UIが強化され、接続されているクライアントのリストがコーディネータEdgeに表示されるようになりました</block>
+  <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSLモジュールがバージョン1.1.1Lにアップグレードされました</block>
+  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">ロギングインフラが強化されました</block>
+  <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">「エッジ同期」機能が追加されました</block>
+  <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">OpenSSLモジュールがバージョン1.1.1kにアップグレードされました</block>
+  <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">ライセンス登録ページが更新されました</block>
 </blocks>
