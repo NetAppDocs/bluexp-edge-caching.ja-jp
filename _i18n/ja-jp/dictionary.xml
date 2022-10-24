@@ -188,7 +188,6 @@
   <block id="6cfcd1fac0b2e806d26cc363f98afe52" category="inline-link">NetApp GFC SCOM 管理パッケージ（ ZIP ）</block>
   <block id="94ab5cbee962c68b827980048c10c188" category="paragraph"><block ref="94ab5cbee962c68b827980048c10c188" category="inline-link-rx"></block></block>
   <block id="e2d416ed29232c19a683a619f4500452" category="list-text">グローバルファイルキャッシュのドキュメント：</block>
-  <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">『 NetApp Global File Cache User Guide 』（ .pdf ）</block>
   <block id="d30bfe96d7c62ab706482cb5c2b4a1ec" category="section-title">グローバルファイルキャッシュエッジの設計と導入</block>
   <block id="5698363b5f7247a6f653aa572ae1cb51" category="paragraph">要件によっては、ブランチオフィスでの同時ユーザーセッションに基づいて、 1 つまたは複数のグローバルファイルキャッシュエッジインスタンスを配置する必要があります。Edge インスタンスは、ブランチオフィス内のエンドユーザに仮想ファイル共有を提供します。これは、関連付けられた Global File Cache Core インスタンスから透過的に拡張されています。グローバルファイルキャッシュエッジには、ブランチオフィス内のキャッシュされたファイルを含む「 d:\`NTFS ボリューム」が含まれている必要があります。</block>
   <block id="f545daefd1b990207b6063d1a0d100bb" category="inline-link-macro">サイジングガイドライン</block>
@@ -486,10 +485,6 @@
   <block id="c312a13dafd8799651830cedd659bf52" category="admonition">グローバルファイルキャッシュエッジについては、を理解することが重要です <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。これは、グローバルファイルキャッシュの配置に適した設計を行うのに役立ちます。また、拡張性、リソースの可用性、および冗長性の観点から、環境に最適なものを決定する必要があります。</block>
   <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">Global File Cache Edge が最適に機能するには、次のハードウェアおよびソフトウェアリソースが必要です。全体的なサイジングガイドラインの詳細については、を参照してください <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。</block>
   <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">ボリュームは、アプリケーション用のデータセットの合計数に対応できるだけの大きさであり、データセットの拡張に合わせて拡張できることを推奨します。作業環境に複数のアグリゲートがある場合は、を参照してください<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> をクリックして、新しいボリュームの空きスペースが最も多いアグリゲートを確認します。</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS アカウントを追加します</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">サポートダッシュボードを使用すると、すべてのネットアップサポートサイトのアカウントを 1 箇所から追加および管理できます。</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1 名で登録します</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">ネットアップサポートサイトのアカウントがない場合は、<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager コンソールの右上にあるヘルプアイコンをクリックし、 * Support * を選択します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -497,12 +492,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">Cloud Manager で NSS アカウントを使用することができます。</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">注：お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">アカウントを登録してサポートを受けてください</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">サポートの登録は、 Cloud Manager のサポートダッシュボードで実行できます。</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">[* リソース ] タブで、 [* サポートに登録 * ] をクリックします。</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">登録する NSS 資格情報を選択し、 * 登録 * をクリックします。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -530,12 +519,8 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">お客様のご意見をお考えください。Cloud Manager の改善に役立つフィードバックを送信します。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとに問題が発生した場合は、ネットアップサポートエンジニアと協力して解決できます。</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager で、 * Help &gt; Support * の順にクリックします。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">[ * お問い合わせ * ] をクリックして、ネットアップ・テクニカル・サポートの電話番号を検索してください。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">[ * 問題 を開く * ] をクリックし、いずれかのオプションを選択して、 [ * 送信 * ] をクリックします。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">ネットアップの担当者がケースを確認し、すぐに対応を開始します。</block>
   <block id="58560a40a2e236cad4c2d149ea65d296" category="paragraph">の第 13 章を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> を参照してください。</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日（バージョン1.3.0）</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">Edge Sync機能の構成UIページが更新されました。</block>
@@ -561,7 +546,6 @@
 <block ref="8e4798a9d84286ce2af64cff0824baca" category="inline-link-rx"></block></block>
   <block id="40e4043ab4e9038318e0841ef06244c0" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
 <block ref="4c2b578017747f1ec201cbd7ab6ca56c" category="inline-link-rx"></block></block>
-  <block id="5621e0035a66f3c4e8f0c7d5fff8a27f" category="paragraph"><block ref="5621e0035a66f3c4e8f0c7d5fff8a27f" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">次の手順を実行します</block>
   <block id="4249aa75e9ea96b2d0d6b440b4f4b8f4" category="paragraph"><block ref="099296b5b160f80a9ee09ffb08be17ae" category="inline-link-macro-rx"></block> Global File Cache Edgeソフトウェアをアップグレードするには、次の手順に従います。</block>
   <block id="db8e575f29e7264d9dbb628ab57766be" category="paragraph">詳細については、を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>。</block>
@@ -570,7 +554,6 @@
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日（バージョン1.3.1）</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正された問題</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">バージョン1.3.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。このリリースでは、に記載されている問題が修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
-  <block id="897b3098cd8a06c0ff8041457079a260" category="paragraph"><block ref="897b3098cd8a06c0ff8041457079a260" category="inline-link-rx"></block></block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">アップグレード時に、正しいバージョンのMicrosoft再配布可能が正しくインストールされていないため、Tumが起動しません。GFCインストーラが修正され、正しいバージョンの再配布が可能になりました。</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">GFC License Manager Service（LMS）では、設定情報が上書きされるのではなく、更新されるようになりました。</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">構成UIは、アップグレードプロセス中に正しいSystem.net.http dllにバインドされるようになりました。</block>
@@ -608,4 +591,86 @@
   <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">「エッジ同期」機能が追加されました</block>
   <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">OpenSSLモジュールがバージョン1.1.1kにアップグレードされました</block>
   <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">ライセンス登録ページが更新されました</block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、NetApp Support Site （NSS）アカウントをCloud Managerに追加し、サポートに登録する必要があります。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud ManagerアカウントIDサポートサブスクリプションを登録します（Cloud Managerのサポートリソースのページにある20桁の960xxxxxxxxxシリアル番号）。</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">これは、Cloud Manager内のすべてのサービスの単一のサポートサブスクリプションIDとして機能します。Cloud Managerのアカウントレベルのサポートサブスクリプションがそれぞれ登録されている必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">これらのシリアル番号は、一般にPAY_GOと呼ばれ、Cloud Volumes ONTAP の導入時にCloud Managerによって生成されます。</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットの発行、自動ケース生成、Active IQ などの機能を利用できます。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">登録方法は、新規のお客様か既存のお客様かパートナーかによって異なります。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">既存のお客様またはパートナー</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードには、Cloud Managerの* NSS Management *ページでNSSアカウントを追加することができます。NSSアカウントを追加すると、Cloud Managerで自動的にこれらのシリアル番号が登録されます。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSSアカウントを追加する方法について説明します</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">ネットアップ製品を初めてご利用になる場合は、ネットアップのサポート登録サイトで、Cloud Managerアカウントのシリアル番号の登録を1回だけ完了してください。この登録を完了して新しいNSSアカウントを作成したら、Cloud Managerのこのアカウントを使用して自動で登録することができます。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">Cloud ManagerにNSSアカウントを追加します</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、Cloud Managerで使用できます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加できますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">これらの操作を実行すると、Cloud ManagerはNSSアカウントを使用して、ライセンスのダウンロード、ソフトウェアアップグレードの検証、以降のサポートの登録などを実行できます。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">お客様レベルのアカウントである必要があります（ゲストや一時アカウントは使用できません）。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。これはシステムで生成されたIDで、Eメールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。このオプションを使用すると、再度ログインするように求められます。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">ネットアップに登録してください</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、Cloud Managerからサポートに登録するだけで済みます。</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">NSSアカウントをCloud Managerに追加していない場合は、</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">シリアル番号のフィールドには、上記のCloud Managerアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Support Registrationのページで、Cloud ManagerアカウントIDのシリアル番号を確認します。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">前述の手順2からCloud Managerアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを読み、確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support Site アカウントを作成したら、Cloud Managerに移動してこのNSSアカウントを追加して以降の登録を行うことができます。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">ケースの作成*機能を使用するには、まずCloud ManagerアカウントIDのシリアル番号（例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">[*ケースの作成*]をクリックして、ネットアップサポートスペシャリストのチケットを開きます。</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSSアカウントが表示されない場合は、Cloud Managerのサポートセクションにある* NSS Management *タブに移動して追加できます。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローや機能を使用して、テクニカルサポートの問題 に固有のCloud Managerなどです。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したCloud Managerアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、Cloud Managerアカウントのシリアル番号（例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
+  <block id="ee961885b3719613338a90636622509f" category="inline-link">『NetApp Global File Cache User Guide』（.dosx）</block>
+  <block id="64d873bef4d1293fe23ea2696b867c85" category="paragraph"><block ref="64d873bef4d1293fe23ea2696b867c85" category="inline-link-rx"></block></block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
 </blocks>
