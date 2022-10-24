@@ -18,6 +18,12 @@ Global File Cache の新機能について説明します。
 
 
 
+== 2022年10月24日（バージョン2.1）
+
+バージョン2.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。
+
+
+
 == 2022年7月25日（バージョン2.0）
 
 このリリースには、以下に示す新機能が搭載されています。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
@@ -94,7 +100,7 @@ Global File Cache License Management Server（LMS）サービスが拡張され�
 
 === 「エッジ同期」機能が追加されました
 
-この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] を参照してください。
+この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] を参照してください。
 
 
 

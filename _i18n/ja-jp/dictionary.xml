@@ -296,7 +296,6 @@
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（バージョン 1.2.0 ）</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">これは最新バージョンであり、より安全です。このモジュールは、 GFC エッジと GFC コア間のセキュアな通信に使用されます。</block>
   <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021 年 6 月 9 日（バージョン 1.1.0 ）</block>
-  <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> を参照してください。</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">GFC ライセンス登録ページに、ネットアップのサブスクリプションを通じてライセンスをアクティブ化したときに表示されるライセンス数が追加されました。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">ネットアップでは、 Cloud Manager をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
@@ -521,7 +520,6 @@
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager で、 * Help &gt; Support * の順にクリックします。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
-  <block id="58560a40a2e236cad4c2d149ea65d296" category="paragraph">の第 13 章を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> を参照してください。</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日（バージョン1.3.0）</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">Edge Sync機能の構成UIページが更新されました。</block>
   <block id="e30c0599dc23f8e20e7e385b763cb321" category="list-text">PowerShellコマンドレットを使用して複数エッジの事前取り込みジョブを同時に追加する場合、問題 を修正しました。</block>
@@ -538,18 +536,8 @@
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">この「メタデータエッジ同期」機能は、エッジ同期機能をコアフレームワークとして使用します。すべてのサブスクライブ済みエッジでメタデータ情報のみが更新され、Edgeマシンでファイル/フォルダが作成されます。</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Serviceの機能強化</block>
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">Global File Cache License Management Server（LMS）サービスが拡張され、プロキシ設定が自動検出されるようになりました。これにより、シームレスな構成が可能になります。</block>
-  <block id="8596d7819fbc536d873f9c10275b172b" category="list-text"><block ref="8596d7819fbc536d873f9c10275b172b" category="inline-link-rx"></block></block>
-  <block id="50e21fbeaef96e9c5b880df1c4b9f7ec" category="paragraph">グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>。</block>
-  <block id="824d9ff5b9f880482138717e4cd1fbd1" category="paragraph">を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="81805391f402f98802b5d8c2d17333c1" category="paragraph">を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> ライセンスの詳細については、を参照してください。</block>
-  <block id="35c3f100dac7ee6eb477eab2e356ae84" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
-<block ref="8e4798a9d84286ce2af64cff0824baca" category="inline-link-rx"></block></block>
-  <block id="40e4043ab4e9038318e0841ef06244c0" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
-<block ref="4c2b578017747f1ec201cbd7ab6ca56c" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">次の手順を実行します</block>
   <block id="4249aa75e9ea96b2d0d6b440b4f4b8f4" category="paragraph"><block ref="099296b5b160f80a9ee09ffb08be17ae" category="inline-link-macro-rx"></block> Global File Cache Edgeソフトウェアをアップグレードするには、次の手順に従います。</block>
-  <block id="db8e575f29e7264d9dbb628ab57766be" category="paragraph">詳細については、を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>。</block>
-  <block id="d9e1cd17d9a7ca15a50e2aaeed2f47c9" category="paragraph">グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>。</block>
   <block id="f3abc78aa44d210b1f7b92cda50a64cb" category="paragraph">このガイドラインでは、グローバルファイルキャッシュコアインスタンスごとに最大 10 個のエッジインスタンスを推奨しています。グローバルファイルキャッシュコアインスタンスごとに最大 20 個のエッジを使用します。これは、最も一般的なワークロードのタイプと平均ファイルサイズに大きく依存します。より一般的なワークロードでは、コアごとにEdgeインスタンスを追加できますが、このような場合は、ファイルセットの種類とサイズに応じて、EdgeインスタンスとCoreインスタンスの数を正しくサイジングする方法をアカウント担当者に確認してください。</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日（バージョン1.3.1）</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正された問題</block>
@@ -670,7 +658,21 @@
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
-  <block id="ee961885b3719613338a90636622509f" category="inline-link">『NetApp Global File Cache User Guide』（.dosx）</block>
-  <block id="64d873bef4d1293fe23ea2696b867c85" category="paragraph"><block ref="64d873bef4d1293fe23ea2696b867c85" category="inline-link-rx"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
+  <block id="2331299ea4e1274ea1e795e9061e6f4f" category="paragraph">の第 13 章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
+  <block id="5e69691f5d475a3b65c0155011543ee9" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
+<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
+  <block id="20e4d382da5a62bf07e7f79eb29f3a71" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
+<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
+  <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp Global File Cache User Guide（ .pdf ）</block>
+  <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
+  <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">詳細については、を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
+  <block id="f4ca9e5eaa8b2077803ade72c09e106c" category="paragraph">グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
+  <block id="d18c299cf227d8244308e2e8541aec05" category="paragraph">を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="954619d0b68860fec456402bc9591346" category="paragraph">を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> ライセンスの詳細については、を参照してください。</block>
+  <block id="2844ded52a9c24e06bfbc7cdb852373a" category="paragraph">グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
+  <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（バージョン2.1）</block>
+  <block id="2c0e477b1c3ddc51c48bebdcb7131054" category="paragraph">バージョン2.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="cb11eec86efef95fd396ace517f403b2" category="paragraph">この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
 </blocks>
