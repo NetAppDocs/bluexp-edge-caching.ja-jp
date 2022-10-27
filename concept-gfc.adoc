@@ -123,7 +123,7 @@ image:diagram_gfc_image3.png["Edge および Core のグローバルファイル
 +
 ** グローバルファイルキャッシュ管理サーバ：
 +
-Azure では、これは、 27GB のプレミアム SSD を搭載した D2S_V3 または同等の（ vCPU 2 基 / 8GB の RAM ） VM 上で実行されます
+Azureでは、127 GBの標準SSDを搭載したD2S_V3または同等の（2 vCPU / 8 GB RAM）VM上で実行されます
 
 +
 AWS では、 127GB の汎用 SSD を搭載した m4.large インスタンスまたは同等のインスタンス（ 2 vCPU / 8GB RAM ）で実行されます

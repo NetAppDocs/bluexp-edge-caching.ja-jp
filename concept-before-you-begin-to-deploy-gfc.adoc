@@ -56,10 +56,10 @@ NOTE: 複数のグローバルファイルキャッシュエッジインスタ�
 
 === Edge インスタンスごとの同時ユーザー数
 
-Global File Cache Edge では、キャッシュアルゴリズムとファイルレベルの差分データの処理が大幅に増加しています。1 つのグローバルファイルキャッシュエッジインスタンスは、専用の物理エッジインスタンスあたり最大 400 ユーザー、専用の仮想環境に最大 200 ユーザーを提供できます。これは、最も一般的なワークロードのタイプと平均ファイルサイズに大きく依存します。より大規模なコラボレーションファイルタイプの場合は、 Global File Cache Edge ごとの最大ユーザー数の 50% を目安にしてください（物理環境または仮想環境によって異なります）。平均ファイルサイズが 1MB 未満の一般的な Office アイテムの場合は、 Global File Cache Edge ごとに 100% ユーザーの上限に向かってガイドします（物理環境または仮想環境によって異なります）。
+Global File Cache Edge では、キャッシュアルゴリズムとファイルレベルの差分データの処理が大幅に増加しています。1つのグローバルファイルキャッシュエッジインスタンスは、専用の物理エッジインスタンス1つにつき最大500ユーザー、専用の仮想配置で最大300ユーザーを処理できます。これは、最も一般的なワークロードのタイプと平均ファイルサイズに大きく依存します。より大規模なコラボレーションファイルタイプの場合は、 Global File Cache Edge ごとの最大ユーザー数の 50% を目安にしてください（物理環境または仮想環境によって異なります）。平均ファイルサイズが 1MB 未満の一般的な Office アイテムの場合は、 Global File Cache Edge ごとに 100% ユーザーの上限に向かってガイドします（物理環境または仮想環境によって異なります）。
 
 
-NOTE: Global File Cache Edge は、仮想インスタンスまたは物理インスタンス上で実行されているかどうかを検出し、ローカル仮想ファイル共有への SMB 接続の数を最大 200 または 400 の同時接続に制限します。
+NOTE: Global File Cache Edgeは、仮想インスタンスまたは物理インスタンス上で実行されているかどうかを検出し、ローカル仮想ファイル共有へのSMB接続の数を最大300または500の同時接続に制限します。
 
 
 
@@ -97,8 +97,18 @@ Cloud Volumes ONTAP インスタンスで SMB ファイル共有をセットア�
 
 このグローバルファイルキャッシュ管理サーバでは、クラウドプロバイダサブスクリプションサービスに接続して次の URL にアクセスするために、 HTTPS （ TCP ポート 443 ）経由の外部アクセスが必要です。
 
-* https://talonazuremicroservices.azurewebsites.net["https://talonazuremicroservices.azurewebsites.net"]
-* https://talonlicensing.table.core.windows.net["https://talonlicensing.table.core.windows.net"]
+* GFC サブスクリプションベースのライセンスを使用している場合：
++
+** \ https://rest.zuora.com/v1/subscriptions/
+** \ https://rest.zuora.com/oauth/token
+
+
+* ネットアップの従来型ライセンスを使用している場合：
++
+** https://talonazuremicroservices.azurewebsites.net
+** https://talonlicensing.table.core.windows.net
+
+
 
 
 Global File Cache ソフトウェアが正常に動作するためには、 WAN 最適化デバイスまたはファイアウォール制限ポリシーからこのポートを除外する必要があります。
@@ -143,7 +153,7 @@ NOTE: 1 つの管理サーバで、異なる作業環境に配置された複数
 
 * グローバルファイルキャッシュライセンス管理サーバ（ LMS ）は、 Microsoft Windows Server 2016 Standard エディションまたは Datacenter エディション、または Windows Server 2019 Standard エディションまたは Datacenter エディション（できればデータセンターまたはクラウドのグローバルファイルキャッシュコアインスタンス上）で設定する必要があります。
 * 別個の Global File Cache LMS インスタンスが必要な場合は、最新の Global File Cache ソフトウェアインストールパッケージを初期状態の Microsoft Windows Server インスタンスにインストールする必要があります。
-* LMS インスタンスは、 HTTPS （ TCP ポート 443 ）を使用してサブスクリプションサービス（ Azure Services/public internet ）に接続できる必要があります。
+* LMSインスタンスは、HTTPS（TCPポート443）を使用してサブスクリプションサービス（パブリックインターネット）に接続できる必要があります。
 * コアインスタンスとエッジインスタンスは、 HTTPS （ TCP ポート 443 ）を使用して LMS インスタンスに接続する必要があります。
 
 

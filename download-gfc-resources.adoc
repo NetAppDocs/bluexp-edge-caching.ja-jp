@@ -36,10 +36,6 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["NetApp GFC （
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC ソフトウェアインストールパッケージ（ .EXE ）"^]
 
-* Global File Cache SCOM （ Microsoft Systems Center Operations Manager ）パッケージ：
-+
-https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM 管理パッケージ（ ZIP ）"]
-
 * グローバルファイルキャッシュのドキュメント：
 +
 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp Global File Cache User Guide（ .pdf ）"^]
@@ -49,7 +45,7 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["次の手順を実行します"] Global File Cache Edgeソフトウェアをアップグレードするには、次の手順に従います。
 
 
-NOTE: Windows Server 2016にグローバルファイルキャッシュを導入する場合は、.NET Framework 4.8を使用する必要があります。
+NOTE: Windows Server 2016にグローバルファイルキャッシュを導入する場合は、.NET Framework 4.8およびWindows Web View2フレームワークを使用する必要があります。
 
 
 
@@ -204,7 +200,7 @@ Global File Cache は、お客様の環境に透過的に統合されるため�
 
 === ウィルス対策のベストプラクティス
 
-このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cache は、 Cylance 、 McAfee 、 Symantec 、 Sophos 、 Trend Micro 、 Kaspersky 、 Windows Defender など、一般的に使用されているウイルス対策製品を、 Global File Cache と組み合わせて使用してテストしています。
+このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
 
 
 NOTE: Edge アプライアンスにウィルス対策を追加すると、ユーザのパフォーマンスが 10~20% 低下する可能性があります。
@@ -228,6 +224,7 @@ D:\ ドライブに加えて、一般に、次のグローバルファイルキ�
 * C ： \Program Files\TalonFAST\Bin\Tapp.exe`
 * C ： \Program Files\TalonFAST\Bin\TappN.exe`
 * C ： \Program Files\TalonFAST\Bin\FTLSummaryGenerator.exe`
+* 'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'
 * C ： \Program Files\TalonFAST\Bin\RFASTSetupWizard.exe`
 * C ： \Program Files\TalonFAST\Bin\TService.exe`
 * C ： \Program Files\TalonFAST\Bin\TUM.exe`

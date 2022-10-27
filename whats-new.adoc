@@ -20,13 +20,33 @@ Global File Cache の新機能について説明します。
 
 == 2022年10月24日（バージョン2.1）
 
-バージョン2.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+
+
+
+=== グローバルファイルキャッシュは、任意の数のライセンスで使用できるようになりました
+
+これまでに必要だった10個のライセンス、つまり30 TBのストレージは削除されました。Global File Cacheライセンスは、3 TBのストレージごとに1つずつ発行されます。
+
+
+
+=== オフラインライセンス管理サーバを使用するためのサポートが追加されました
+
+オフラインまたはダークサイトのライセンス管理サーバ（LMS）は、LMSがライセンスソースを使用したライセンス検証用のインターネット接続を備えていない場合に最も便利です。初期設定時には、インターネット接続とライセンスソースへの接続が必要です。設定が完了すると、LMSインスタンスが暗くなることがあります。ライセンスの継続的な検証のために、すべてのエッジ/コアはLMSと接続されている必要があります。
+
+
+
+=== Optimus PSMを強化し、クラウドライセンスを構成
+
+
+
+=== Optimus UI（Edge Configuration）のEdge Sync機能が強化され、接続されているすべてのクライアントが表示されるようになりました
 
 
 
 == 2022年7月25日（バージョン2.0）
 
-このリリースには、以下に示す新機能が搭載されています。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
 
 
 
@@ -40,7 +60,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 === グローバルファイルキャッシュがCloud Insights に統合されました
 
-NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。
+NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。の第11章を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
 
 https://cloud.netapp.com/cloud-insights["Cloud Insights の詳細については、こちらをご覧ください。"]
 
@@ -91,25 +111,3 @@ Global File Cache License Management Server（LMS）サービスが拡張され�
 
 
 === ロギングインフラが強化されました
-
-
-
-== 2021 年 6 月 9 日（バージョン 1.1.0 ）
-
-
-
-=== 「エッジ同期」機能が追加されました
-
-この機能では、リモートオフィスの複数のエッジが同期され、データは常にキャッシュ / ウォームに保存されます。ファイルを 1 つのエッジでフラッシュ / フェッチすると、 Edge Sync に参加するすべてのエッジ上の同じファイルが更新され、キャッシュされます。のセクション 8.4 を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] を参照してください。
-
-
-
-=== OpenSSLモジュールがバージョン1.1.1kにアップグレードされました
-
-これは最新バージョンであり、より安全です。このモジュールは、 GFC エッジと GFC コア間のセキュアな通信に使用されます。
-
-
-
-=== ライセンス登録ページが更新されました
-
-GFC ライセンス登録ページに、ネットアップのサブスクリプションを通じてライセンスをアクティブ化したときに表示されるライセンス数が追加されました。
