@@ -636,12 +636,7 @@
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
-  <block id="2331299ea4e1274ea1e795e9061e6f4f" category="paragraph">の第 13 章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
   <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
-  <block id="5e69691f5d475a3b65c0155011543ee9" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
-<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
-  <block id="20e4d382da5a62bf07e7f79eb29f3a71" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
-<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp Global File Cache User Guide（ .pdf ）</block>
   <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
   <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">詳細については、を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
@@ -658,7 +653,6 @@
   <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">[CIへのインスタンスの登録]ボタンをクリックしてもOptimus構成UIがハングしないように修正しました。</block>
   <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">初期設定中にTserviceモニタを手動で残す問題 を修正。</block>
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">GFC CIエージェントクライアントサービスの小さなバグを修正しました。</block>
-  <block id="2a2ba06a5d72a7a43d2202f6a8a6296f" category="admonition">Windows Server 2016にグローバルファイルキャッシュを導入する場合は、.NET Framework 4.8およびWindows Web View2フレームワークを使用する必要があります。</block>
   <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">Azureでは、127 GBの標準SSDを搭載したD2S_V3または同等の（2 vCPU / 8 GB RAM）VM上で実行されます</block>
@@ -669,9 +663,21 @@
   <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">オフラインまたはダークサイトのライセンス管理サーバ（LMS）は、LMSがライセンスソースを使用したライセンス検証用のインターネット接続を備えていない場合に最も便利です。初期設定時には、インターネット接続とライセンスソースへの接続が必要です。設定が完了すると、LMSインスタンスが暗くなることがあります。ライセンスの継続的な検証のために、すべてのエッジ/コアはLMSと接続されている必要があります。</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">Optimus PSMを強化し、クラウドライセンスを構成</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Optimus UI（Edge Configuration）のEdge Sync機能が強化され、接続されているすべてのクライアントが表示されるようになりました</block>
-  <block id="51bf740c4d4976d09a651540625df6fd" category="paragraph">NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。の第11章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="9cbdd46155d21eeb894d82c0612ab801" category="paragraph">Global File Cache Edge では、キャッシュアルゴリズムとファイルレベルの差分データの処理が大幅に増加しています。1つのグローバルファイルキャッシュエッジインスタンスは、専用の物理エッジインスタンス1つにつき最大500ユーザー、専用の仮想配置で最大300ユーザーを処理できます。これは、最も一般的なワークロードのタイプと平均ファイルサイズに大きく依存します。より大規模なコラボレーションファイルタイプの場合は、 Global File Cache Edge ごとの最大ユーザー数の 50% を目安にしてください（物理環境または仮想環境によって異なります）。平均ファイルサイズが 1MB 未満の一般的な Office アイテムの場合は、 Global File Cache Edge ごとに 100% ユーザーの上限に向かってガイドします（物理環境または仮想環境によって異なります）。</block>
   <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">Global File Cache Edgeは、仮想インスタンスまたは物理インスタンス上で実行されているかどうかを検出し、ローカル仮想ファイル共有へのSMB接続の数を最大300または500の同時接続に制限します。</block>
   <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">\ https://rest.zuora.com/v1/subscriptions/</block>
   <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMSインスタンスは、HTTPS（TCPポート443）を使用してサブスクリプションサービス（パブリックインターネット）に接続できる必要があります。</block>
+  <block id="df19cf6281f0ac141839cda71b8136bb" category="paragraph">の第14章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="5125c5dbc4823481461bfada1bc11efd" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
+<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
+  <block id="68bd2d9dc8ce644fa266363eb3c8a2a4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
+<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
+  <block id="a82f8775c45fb832c573ea5925281014" category="list-text">Cloud Insights のグローバルファイルキャッシュダッシュボード：</block>
+  <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights ダッシュボード（.ZIP）</block>
+  <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
+  <block id="c1fa707a3e59855bf910866f7bab29df" category="admonition">Windows Server 2016にグローバルファイルキャッシュを導入する場合は、.NET Framework 4.8およびWindows WebView2フレームワークを使用する必要があります。</block>
+  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。更新されたソフトウェアパッケージは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">エッジインスタンスは、追加の同時ユーザーをサポートできます</block>
+  <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">1つのグローバルファイルキャッシュエッジインスタンスは、専用の物理エッジインスタンス1つにつき最大500ユーザー、専用の仮想配置で最大300ユーザーを処理できます。使用可能なユーザの最大数は、それぞれ400と200です。</block>
+  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。の第11章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
 </blocks>
