@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: Cloud Manager を使用して、グローバルファイルキャッシュ管理サーバおよびグローバルファイルキャッシュコアソフトウェアを作業環境に導入します。 
+summary: BlueXPを使用して、Global File Cache Management ServerおよびGlobal File Cache Coreソフトウェアを作業環境に展開します。 
 ---
 = はじめに
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Cloud Manager を使用して、グローバルファイルキャッシ
 
 
 [role="lead"]
-Cloud Manager を使用して、グローバルファイルキャッシュ管理サーバおよびグローバルファイルキャッシュコアソフトウェアを作業環境に導入します。
+BlueXPを使用して、Global File Cache Management ServerおよびGlobal File Cache Coreソフトウェアを作業環境に展開します。
 
 
 
-== Cloud Manager を使用してグローバルファイルキャッシュを有効化
+== BlueXPを使用してグローバルファイルキャッシュを有効にします
 
-この構成では、グローバルファイルキャッシュ管理サーバとグローバルファイルキャッシュコアを、 Cloud Manager を使用して Cloud Volumes ONTAP システムを作成したのと同じ作業環境に導入します。
+この構成では、グローバルファイルキャッシュ管理サーバーとグローバルファイルキャッシュコアを、BlueXPを使用してCloud Volumes ONTAP システムを作成したのと同じ作業環境に展開します。
 
 見る link:https://www.youtube.com/watch?v=TGIQVssr43A["このビデオでは"^] をクリックして、最初から最後までのステップを確認してください。
 
@@ -43,7 +43,7 @@ Azure または AWS に Cloud Volumes ONTAP を導入し、 SMB ファイル共�
 グローバルファイルキャッシュコアインスタンスに、グローバルファイルキャッシュライセンス管理サーバ（ LMS ）サービスを設定します。NSS のクレデンシャル、またはネットアップが提供するお客様 ID とサブスクリプション番号を確認して、サブスクリプションをアクティブ化してください。
 
 [role="quick-margin-para"]
-を参照してください link:task-deploy-gfc-edge-instances.html["グローバルファイルキャッシュエッジインスタンスの配置"^] グローバルファイルキャッシュエッジインスタンスを各リモートロケーションに配置するには、次の手順を実行します。この手順は、 Cloud Manager では実行されません。
+を参照してください link:task-deploy-gfc-edge-instances.html["グローバルファイルキャッシュエッジインスタンスの配置"^] グローバルファイルキャッシュエッジインスタンスを各リモートロケーションに配置するには、次の手順を実行します。この手順は、BlueXPでは実行されません。
 
 
 
