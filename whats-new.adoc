@@ -103,17 +103,3 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights の詳細については
 === License Manager Serviceの機能強化
 
 Global File Cache License Management Server（LMS）サービスが拡張され、プロキシ設定が自動検出されるようになりました。これにより、シームレスな構成が可能になります。
-
-
-
-== 2021 年 12 月 17 日（バージョン 1.2.0 ）
-
-
-
-=== OpenSSLモジュールがバージョン1.1.1Lにアップグレードされました
-
-これは最新バージョンであり、より安全です。このモジュールは、 GFC エッジと GFC コア間のセキュアな通信に使用されます。
-
-
-
-=== ロギングインフラが強化されました

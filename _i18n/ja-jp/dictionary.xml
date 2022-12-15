@@ -282,7 +282,6 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">Global File Cache の新機能について説明します。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">Global File Cache の新機能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（バージョン 1.2.0 ）</block>
-  <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">これは最新バージョンであり、より安全です。このモジュールは、 GFC エッジと GFC コア間のセキュアな通信に使用されます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">環境がすべての要件を満たしていることを確認したら、各リモートオフィスにグローバルファイルキャッシュエッジソフトウェアをインストールします。</block>
   <block id="922da05fe50477cd0460596ea2c098d2" category="doc">グローバルファイルキャッシュエッジインスタンスを展開します</block>
@@ -351,7 +350,6 @@
   <block id="e9b776ca4aec81050e673f885b2eac06" category="doc">グローバルファイルキャッシュの導入を開始する前に</block>
   <block id="cd738516a0c7368cddca5d2174fbd3ce" category="section-title">グローバルファイルキャッシュコアの設計上の考慮事項</block>
   <block id="6e85eb06ef3edf77062f6d45c1910526" category="paragraph">必要に応じて、グローバルファイルキャッシュファブリックを作成するために、 1 つまたは複数のグローバルファイルキャッシュコアインスタンスを配置する必要があります。Core インスタンスは、分散型グローバルファイルキャッシュエッジインスタンスとデータセンターファイルサーバリソース（ファイル共有、フォルダ、ファイルなど）間のトラフィックコープとして機能するように設計されています。</block>
-  <block id="12b3668e4ae5e9987b7658b649439e54" category="paragraph">グローバルファイルキャッシュの展開を設計する際には、環境に適した規模、リソースの可用性、および冗長性を判断する必要があります。グローバルファイルキャッシュコアは、次の方法で展開できます。</block>
   <block id="5d60d6afb236f653125b44b76be39ca9" category="list-text">GFC コアスタンドアロンインスタンス</block>
   <block id="3f56cdce3a042ceab7f4ba6e1cf5f6f7" category="list-text">GFC コア負荷分散設計（コールドスタンバイ）</block>
   <block id="628a4a2f6eaf1d1281369e04da7f5585" category="paragraph">を参照してください <block ref="dff9f26728968e7b308d7b9ca46f5bdd" category="inline-xref-macro-rx"></block> Edge インスタンスの最大数と各構成でサポート可能な合計ユーザ数を理解するには、次の手順を実行します。</block>
@@ -368,7 +366,6 @@
   <block id="b878b843693a16500d3da98423bf22b6" category="paragraph">このセクションで説明する前提条件は、クラウドにインストールされているコンポーネント（ Global File Cache Management Server および Global File Cache Core ）を対象としています。</block>
   <block id="b51baa22d09e6c9f1931a23ebef6347d" category="paragraph">グローバルファイルキャッシュエッジの前提条件について説明します <block ref="dc13b95521107f0e6174e0d4f00812b4" category="inline-link-macro-rx"></block>。</block>
   <block id="891a589deeeaf68084584fbfae4c3ae7" category="section-title">ストレージプラットフォーム（ボリューム）</block>
-  <block id="e6da02886af47462759989718f62ea49" category="paragraph">バックエンドストレージプラットフォームは、この場合、導入した Cloud Volumes ONTAP インスタンスで SMB ファイル共有を提供します。グローバルファイルキャッシュを通じて公開される共有では、 NTFS 権限によるアクセス権の制限を行いながら、 Everyone グループに共有レベルのフルコントロールを許可する必要があります。</block>
   <block id="152468376710017819b274fb14a70617" category="paragraph">Cloud Volumes ONTAP インスタンスで SMB ファイル共有をセットアップしていない場合は、インストール時に設定できるように次の情報を用意しておく必要があります。</block>
   <block id="981640f9fb09fe09a937c7da955d9dfb" category="list-text">Active Directory ドメイン名、ネームサーバの IP アドレス、 Active Directory 管理者のクレデンシャル。</block>
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">作成するボリュームの名前とサイズ、ボリュームを作成するアグリゲートの名前、および共有名。</block>
@@ -405,7 +402,6 @@
   <block id="90fa5a5ac66630ff8491eb335e51bdc9" category="list-text">https://talonazuremicroservices.azurewebsites.net</block>
   <block id="5ed3a104f8850c15acaec08814cbd9b4" category="list-text">https://talonlicensing.table.core.windows.net</block>
   <block id="8503ae56f9a302bb9d549115b584b0fc" category="list-text">ファイアウォール：グローバルファイルキャッシュエッジインスタンスとコアインスタンスの間で TCP ポートを許可する必要があります。</block>
-  <block id="6c912ddbaed2bf80fe819c9899e03b7d" category="list-text">グローバルファイルキャッシュ TCP ポート： 443 （ HTTPS ）、 6618 – 6630 。</block>
   <block id="658440d8d27188f150f9c72390090606" category="summary">グローバルファイルキャッシュで解決された問題を確認します。</block>
   <block id="2ad3d2af445ee46b95129c175cce6515" category="doc">グローバルファイルキャッシュの問題が解決されました</block>
   <block id="dc7104ff29582271cbda56277263eec5" category="list-text">コンフィギュレーション UI （ Optimus ）が強化され、事前入力ジョブを追加する際に日付フィールドエントリが検証されるようになりました。</block>
@@ -529,8 +525,6 @@
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">ライセンス管理サーバは、非常に制限のある環境で動作するように拡張されています</block>
   <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">ライセンスの設定時に、ライセンス管理サーバ（LMS）がインターネットにアクセスして、ネットアップ/ Zuoraからライセンスの詳細を収集できる必要があります。設定が正常に完了すると、LMSはオフラインモードでの作業を継続し、制限のある環境であってもライセンス機能を提供できます。</block>
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">OptimusのEdge Sync UIが強化され、接続されているクライアントのリストがコーディネータEdgeに表示されるようになりました</block>
-  <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSLモジュールがバージョン1.1.1Lにアップグレードされました</block>
-  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">ロギングインフラが強化されました</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
@@ -695,4 +689,8 @@
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="d0ae1d418af223e06e706dd1705e0d76" category="paragraph">グローバル・ファイル・キャッシュの導入を設計する際には'環境に適した規模'リソースの可用性'冗長性を判断する必要がありますグローバルファイルキャッシュコアは、次の方法で展開できます。</block>
+  <block id="eebe944a361fcd12586147893245a793" category="paragraph">バックエンドストレージプラットフォームは、この例では導入したCloud Volumes ONTAP インスタンスで、SMBファイル共有を提供します。グローバルファイルキャッシュを通じて公開される共有では、 NTFS 権限によるアクセス権の制限を行いながら、 Everyone グループに共有レベルのフルコントロールを許可する必要があります。</block>
+  <block id="ca8b4d0fc39e2135cbcdf391be62059b" category="list-text">\ https://gfcproxyforcm-prod.azurewebsites.net/</block>
+  <block id="e59af2ecfd4c7dd3a53e6980dc28d267" category="list-text">グローバルファイルキャッシュTCPポート：443（HTTPS）、6618-6630。</block>
 </blocks>
