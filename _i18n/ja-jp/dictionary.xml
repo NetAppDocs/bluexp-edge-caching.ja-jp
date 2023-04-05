@@ -5,13 +5,10 @@
   <block id="8826299bdde67043ef3cc9a0b306ee56" category="paragraph">グローバルファイルキャッシュおよびその他のネットアップ製品の詳細については、次のリンクを参照してください。</block>
   <block id="a5b9ae89457868d250c6634258da66a5" category="list-text">グローバルファイルキャッシュに関する FAQ</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">こちらをご覧ください</block>
-  <block id="9da15b0ec3a63afcb01d7f2726c42994" category="list-text">よくある質問とその回答のリストを参照してください <block ref="19a12809be10088b3860ea30b7a5724d" category="inline-link-macro-rx"></block></block>
   <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">『 NetApp Global File Cache User Guide 』を参照してください</block>
   <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="list-text">ネットアップの製品マニュアル</block>
   <block id="1b28ae1c9b0f1461cf0ea5fa195be216" category="list-text">ネットアップのクラウド製品に関するその他のドキュメントを参照してください<block ref="0510c3621321be434699160c80a14647" category="inline-link-rx"></block></block>
-  <block id="1acb7294e54390a8c41c4c19b14f4c46" category="list-text">すべてのネットアップ製品の追加ドキュメントを参照<block ref="01463e984d77180cbd9edcf8c8c1f237" category="inline-link-rx"></block></block>
   <block id="e47d1e4074d2e9ecb5a92499549efe85" category="list-text">Cloud Volumes ONTAP を使用したグローバルファイルキャッシュユーザに対するカスタマーサポートは、次のチャネルを介して利用できます。</block>
-  <block id="fd3e064f15a5332c54fff40bd465efef" category="list-text">Guided Problem Solving 、ケース管理、ナレッジベース、ダウンロード、ツールなどを開始できます <block ref="47f87a52a4a366c07eaa3494febfbcd2" category="inline-link-macro-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="2d586fed9d23ea26489008f327e1394f" category="list-text">ネットアップサポートにログインします<block ref="4ae7ca7e30d53354eb9b40e218393b2c" category="inline-link-rx"></block> NSS のクレデンシャルを使用します</block>
   <block id="bd409d83b208b51683f34be90cb2a669" category="list-text">P1 問題の迅速なサポートについては、 +1 856.481.3990 （オプション 2 ）までお電話ください。</block>
@@ -23,13 +20,11 @@
   <block id="990f23665d21283cae7ae6a6366d2e03" category="paragraph">次の手順を実行すると、すぐに作業を開始できます。また、残りのセクションまでスクロールして詳細を確認することもできます。</block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">Azure で Cloud Volumes ONTAP を起動します</block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">AWS での Cloud Volumes ONTAP の起動</block>
-  <block id="37f4de68e5e319c54c0137e56b4d261d" category="paragraph">Azure または AWS に Cloud Volumes ONTAP を導入し、 SMB ファイル共有を設定詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block> または<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>。</block>
   <block id="0877004cfc484438f5a264dde3bb7914" category="paragraph">グローバルファイルキャッシュ管理サーバのインスタンスを、 Cloud Volumes ONTAP のインスタンスと同じ作業環境に導入します。</block>
   <block id="0e7c4b1d0864abab13fd8a086a179f5b" category="paragraph">グローバルファイルキャッシュコアのインスタンスまたは複数のインスタンスを、 Cloud Volumes ONTAP のインスタンスと同じ作業環境に展開し、 Active Directory ドメインに参加させます。</block>
   <block id="de06dbc0084bf6af6184289f308be0a6" category="paragraph">グローバルファイルキャッシュコアインスタンスに、グローバルファイルキャッシュライセンス管理サーバ（ LMS ）サービスを設定します。NSS のクレデンシャル、またはネットアップが提供するお客様 ID とサブスクリプション番号を確認して、サブスクリプションをアクティブ化してください。</block>
   <block id="175d4a7fba1f2c02d227a7916d20ff9d" category="inline-link-macro">グローバルファイルキャッシュエッジインスタンスの配置</block>
   <block id="7be40d2cd621549d68e8fff4ffead179" category="section-title">ストレージプラットフォームとして Cloud Volumes ONTAP を導入</block>
-  <block id="679690d1daf36392f2889211bd47240c" category="paragraph">現在のリリースでは、 Azure または AWS に導入された Cloud Volumes ONTAP がグローバルファイルキャッシュでサポートされています。前提条件、要件、および導入手順の詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block> または<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>。</block>
   <block id="670790b206f952300b65bfcba3f18571" category="paragraph">次のグローバルファイルキャッシュの追加要件に注意してください。</block>
   <block id="d0b9898fe413c415608114643e2b6efc" category="list-text">SMB ファイル共有は Cloud Volumes ONTAP のインスタンスで設定する必要があります。</block>
   <block id="86614028aa6f6a8ad4a9981386bd50bc" category="paragraph">インスタンスに SMB ファイル共有が設定されていない場合は、グローバルファイルキャッシュコンポーネントのインストール時に SMB 共有を設定するように求められます。</block>
@@ -53,7 +48,6 @@
   <block id="fa10fd38af8edc4beee6be041e3cf6f9" category="inline-image-macro">グローバルファイルキャッシュ管理サーバーおよびコアインスタンスを展開する前の前提条件を示すスクリーンショット。</block>
   <block id="adddcebfda336f16948cb1c5be4bb5c2" category="paragraph"><block ref="adddcebfda336f16948cb1c5be4bb5c2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b7058a71800a15389821662470e7ae9b" category="list-text">要件が満たされていること、またはこれらの要件を満たす情報があることを確認したら、 [* Continue （続行） ] をクリックします。</block>
-  <block id="002774556a6a12817ad3839127d64fbc" category="list-text">グローバルファイルキャッシュ管理サーバー VM へのアクセスに使用する管理者資格情報を入力し、 * GFC サービスを有効にする * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。</block>
   <block id="8032f6f6b67e256816351d404b3f1e9c" category="inline-image-macro">グローバルファイルキャッシュ管理サーバの設定に必要な設定情報を示すスクリーンショット。</block>
   <block id="4b03fed08ad52898d40ce5e286858a6e" category="paragraph"><block ref="4b03fed08ad52898d40ce5e286858a6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8c5dd4a84baf4a84163425c3af2f194" category="list-text">グローバルファイルキャッシュ管理サービスが正常に展開されたら、 [* 続行 ] をクリックします。</block>
@@ -62,7 +56,6 @@
   <block id="c996fbb43976c45057849f97d91482c5" category="list-text">サービスアカウントはドメインユーザであり、 Cloud Volumes ONTAP インスタンスの BUILTIN\Backup Operators グループに含まれます。</block>
   <block id="3d114fb7f76c45d222b5fa52c8755f9b" category="inline-image-macro">Global File Cache Core Active Directory およびサービスアカウントのセットアップに必要な設定情報を示すスクリーンショット。</block>
   <block id="972ba37c9a6a437e2992461ee66b8619" category="paragraph"><block ref="972ba37c9a6a437e2992461ee66b8619" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e255f58a7ecc569b1a7762aad76b77cc" category="list-text">グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。</block>
   <block id="05e7c33418df8d04d47d09bd377977c0" category="inline-image-macro">グローバルファイルキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。</block>
   <block id="f12f59635f226ed3eb4e33879fb13977" category="paragraph"><block ref="f12f59635f226ed3eb4e33879fb13977" category="inline-image-macro-rx" type="image"></block></block>
   <block id="384294792758071d499d5318d1aa08d0" category="list-text">グローバルファイルキャッシュコアが正常に展開されたら、 * ダッシュボードへ移動 * をクリックします。</block>
@@ -102,7 +95,6 @@
   <block id="61de456010a3bab3d4ffccc75733e75b" category="paragraph"><block ref="61de456010a3bab3d4ffccc75733e75b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8d27de6a961b36da305ccdb9c92c1cef" category="list-text">Active Directory ドメインに参加するための管理者ユーザクレデンシャルとサービスアカウントユーザクレデンシャルを入力します。[* Continue （続行） ] をクリックします。</block>
   <block id="1601f847eea4689764f94762d42da468" category="list-text">グローバルファイルキャッシュコアインスタンスは、 Cloud Volumes ONTAP インスタンスと同じ Active Directory ドメインに存在する必要があります。</block>
-  <block id="114a9772f4e07edb3f9ad9c542fb6927" category="list-text">グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。</block>
   <block id="503b83cd55eaafd02329ed7dab2d8810" category="paragraph"><block ref="503b83cd55eaafd02329ed7dab2d8810" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d4258bbf3853a6e9c45602dc946b8b71" category="paragraph">ダッシュボードには、作業環境の 2 番目のコアインスタンスが反映されます。</block>
   <block id="b7fcbadab1aa67b4ee66fdd86238335a" category="summary">ネットアップのグローバルファイルキャッシュを使用すると、分散したファイルサーバのサイロをパブリッククラウドの 1 つの包括的なグローバルストレージ容量に統合できます。これにより、グローバルにアクセス可能なファイルシステムがクラウド内に作成され、すべてのリモートロケーションがローカルと同じように使用できるようになります。</block>
@@ -117,7 +109,6 @@
   <block id="5a1a220f80ef863fc3d1b825931fdee8" category="list-text">グローバルなユーザ向けに単一のデータセットを作成し、インテリジェントなファイルキャッシングを活用して、グローバルなデータアクセス、コラボレーション、パフォーマンスを向上させます</block>
   <block id="1d40d5b2144a31da39c596193a7553cd" category="list-text">自己維持型の自己管理キャッシュを利用して、データのコピーとバックアップを完全に排除できます。ローカルファイルキャッシュを使用してアクティブなデータをキャッシュし、ストレージをカット コスト</block>
   <block id="eabc5b86be92567d6584b6f9bda306bf" category="list-text">を使用したグローバルネームスペースを通じて、ブランチロケーションから透過的にアクセスできます リアルタイムのセントラルファイルロック</block>
-  <block id="4ce05bba4fc0acefbba5f691da672e1d" category="paragraph">グローバルファイルキャッシュの機能と使用例について詳しくは、こちらをご覧ください<block ref="419cd0b2469907a6725a985df52c9727" category="inline-link-rx"></block>。</block>
   <block id="bae5d6926bc4f006241c5e6f94750678" category="section-title">Global File Cache コンポーネント</block>
   <block id="0f01e44182d4ad208ac99fd86195b6c6" category="paragraph">グローバルファイルキャッシュは、次のコンポーネントで構成されています。</block>
   <block id="97734fa413fa7ffd4abe37881fb6eb11" category="list-text">グローバルファイルキャッシュ管理サーバ</block>
@@ -146,7 +137,6 @@
   <block id="8846e89cb2a3b43e1079cc88ae2d9af6" category="list-text">インテリジェント・ファイル・キャッシュをカスタム・サイズの NTFS ボリューム（ `D:\` ）でホストします</block>
   <block id="d6b1a1e3c6e678c1adb5c3d7a9edd7dc" category="list-text">ネットワーク構成：</block>
   <block id="39792004bb5e86d84188594315715f83" category="list-text">Multiprotocol Label Switching （ MPLS ）、 ExpressRoute 、または VPN 接続</block>
-  <block id="725f54ef9480b8e1eed0e76661c31fb1" category="list-text">お客様の Active Directory ドメインサービスとの統合。</block>
   <block id="ab055fb1c85968bb4f5a4bc4ea101b6f" category="list-text">グローバルネームスペースを使用するための DFS ネームスペース（推奨）。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">グローバルファイルキャッシュの使用コストは、選択したインストールのタイプによって異なります。</block>
@@ -223,11 +213,9 @@
   <block id="85b5f3c25b56d8971fb15ba1b85c9098" category="paragraph">グローバルファイルキャッシュインテリジェントファイルキャッシュディスク（ D ： \ ）のディスクレイテンシは、同時ユーザーあたり 0.5 ミリ秒未満の平均 I/O ディスクレイテンシと 1 MiBps のスループットを実現する必要があります。</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">ネットワーキング</block>
   <block id="07b05d86c9937c2ed6c68c1c3c82ba9a" category="list-text">ファイアウォール：グローバルファイルキャッシュエッジと管理サーバとコアインスタンスの間で TCP ポートを許可する必要があります。</block>
-  <block id="79329656b58b4f751ab1443743fcbee0" category="paragraph">グローバルファイルキャッシュ TCP ポート： 443 （ HTTPS-LMS ）、 6618 ～ 6630 。</block>
   <block id="9e3e7b6b69b143adaf0ad3ceb48aae35" category="list-text">ネットワーク最適化デバイス（ Riverbed Steelhead など）は、グローバルファイルキャッシュ固有のポート（ TCP 6618-6630 ）をパススルーするように構成する必要があります。</block>
   <block id="1fbc431dee8a6b3b664020a773591201" category="section-title">クライアントワークステーションとアプリケーションのベストプラクティス</block>
   <block id="06493aee7995cc818af61c2924efce03" category="inline-link-macro">グローバルファイルキャッシュの展開を開始する前に</block>
-  <block id="603c481dce5ea9501582f855a272293d" category="paragraph">Global File Cache は、お客様の環境に透過的に統合されるため、ユーザは、クライアントワークステーションを使用して、エンタープライズアプリケーションを実行しながら、集中管理されたデータにアクセスできます。グローバルファイルキャッシュを使用すると、データには直接ドライブマッピングまたは DFS 名前空間を介してアクセスできます。グローバルファイルキャッシュファブリック、インテリジェントファイルキャッシング、およびソフトウェアの主な側面の詳細については、を参照してください <block ref="bf537e703603ffded61bf06d23640509" category="inline-link-macro-rx"></block> セクション。</block>
   <block id="35bd173c5c09760e27239213b562c7a2" category="paragraph">最適なエクスペリエンスとパフォーマンスを確保するには、『グローバルファイルキャッシュユーザーガイド』に記載されている Microsoft Windows クライアントの要件およびベストプラクティスに準拠することが重要です。これは、すべてのバージョンの Microsoft Windows に適用されます。</block>
   <block id="a0d1fd507848b71fc407746a94f31ef3" category="section-title">ファイアウォールとアンチウイルスのベストプラクティス</block>
   <block id="5effefb1057efd2748258b65d97bf200" category="paragraph">グローバルファイルキャッシュは、最も一般的なウィルス対策アプリケーションスイートがグローバルファイルキャッシュと互換性があるかどうかを検証するために相応の努力を払いますが、ネットアップでは、これらのプログラムや関連する更新、サービスパック、変更によって発生する互換性の問題やパフォーマンス上の問題については保証できず、責任も負いません。</block>
@@ -241,7 +229,6 @@
   <block id="662c746bbad04699605c42230359dc78" category="list-text">グローバルファイルキャッシュインスタンスは、 TCP ポート 443 （ HTTPS ）上のグローバルファイルキャッシュ管理サーバと通信する必要があります。</block>
   <block id="21b9f51fc75798b971847bd516553644" category="list-text">グローバルファイルキャッシュ固有のポートをパススルーするように、ネットワーク最適化ソリューション / デバイスを設定する必要があります。</block>
   <block id="047ff8e79c7124b6aed2f30a879e9d2b" category="section-title">ウィルス対策のベストプラクティス</block>
-  <block id="7fe70d8482fea172d2f27e34dd091935" category="admonition">Edge アプライアンスにウィルス対策を追加すると、ユーザのパフォーマンスが 10~20% 低下する可能性があります。</block>
   <block id="77e4365f0d8727fe3c465fb04f26ce93" category="section-title">除外を設定します</block>
   <block id="7e97ed382f6a1568b4024c1aafe5994c" category="paragraph">ウイルス対策ソフトウェアまたはその他のサードパーティ製のインデックス付けまたはスキャンユーティリティでは、 Edge インスタンス上のドライブ D ： \ をスキャンしないでください。Edge サーバードライブ D:\ をスキャンすると、キャッシュネームスペース全体に対する多数のファイルオープン要求が発生します。これにより、データセンターで最適化されているすべてのファイルサーバに対して、 WAN 経由でファイルがフェッチされます。WAN 接続フラッディングおよび Edge インスタンス上の不要な負荷が発生すると、パフォーマンスが低下します。</block>
   <block id="2ddd9f927c8456f98d29b59e20cc5f5b" category="paragraph">D:\ ドライブに加えて、一般に、次のグローバルファイルキャッシュディレクトリとプロセスをすべてのアンチウイルスアプリケーションから除外する必要があります。</block>
@@ -274,11 +261,7 @@
   <block id="f356482904e6832d3cc99dacd15c42db" category="list-text">ネットアップのサポートとメンテナンスはグローバルファイルキャッシュにのみ適用されます。</block>
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">データベースサーバやメールサーバなど、リソースを大量に消費する基幹業務生産性ソフトウェアはサポートされていません。</block>
   <block id="713817da2f1a5080b9306b0f5948c915" category="list-text">グローバルファイルキャッシュを実行しているサーバーにインストールされているグローバルファイルキャッシュ以外のソフトウェアについては、お客様の責任となります。</block>
-  <block id="29ae68bca05f43a639abb409a93824fd" category="list-text">サードパーティ製のソフトウェアパッケージが原因で、ソフトウェアやリソースがグローバルファイルキャッシュと競合したり、パフォーマンスが低下したりする場合は、グローバルファイルキャッシュのサポート組織が、グローバルファイルキャッシュを実行しているサーバでソフトウェアを無効にしたり、削除したりするようにお客様に要求することがあります。</block>
-  <block id="fd99d9f9599b3ae81274090f0dcf4496" category="list-text">Global File Cache アプリケーションを実行しているサーバに追加されたすべてのソフトウェアのインストール、統合、サポート、アップグレードは、お客様の責任で行ってください。</block>
   <block id="f218d788a46edbfbe310bfaeacdb08a5" category="list-text">ウイルス対策ツールやライセンスエージェントなどのシステム管理ユーティリティ / エージェントは、共存できます。ただし、前述のサポートされているサービスとアプリケーションを除き、これらのアプリケーションはグローバルファイルキャッシュでサポートされていません。また、上記と同じガイドラインに従う必要があります。</block>
-  <block id="b877459195b00b2b29061b8a391060a2" category="list-text">追加したソフトウェアのインストール、統合、サポート、アップグレードは、お客様の責任で行ってください。</block>
-  <block id="43449f1753c58e92ee1a0135eba67515" category="list-text">お客様が、ソフトウェアまたはリソースがグローバルファイルキャッシュと競合したり、パフォーマンスが低下したりする原因と思われるサードパーティ製ソフトウェアパッケージをインストールした場合、グローバルファイルキャッシュのサポート組織がソフトウェアを無効化または削除する必要がある場合があります。</block>
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">Global File Cache の新機能について説明します。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">Global File Cache の新機能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021 年 12 月 17 日（バージョン 1.2.0 ）</block>
@@ -314,7 +297,6 @@
   <block id="dee8dd3dec17bcdeb7aeaa26a0da5d34" category="list-text">初期設定ウィザードが完了したら、次のクレデンシャルを使用して Windows Server 2016 または 2019 オペレーティングシステムにローカルでログインします。</block>
   <block id="e88d9e809b189685f2b697f0d2877e93" category="list-text">ユーザ名： * FASTAdmin*</block>
   <block id="b0510fc1d488a120fdf78923e0b172a9" category="list-text">パスワード： * Tal0nFAST!*</block>
-  <block id="ad17b65ba7f615ee93dab53c7e6ef1bf" category="list-text">Windows Server VM を構成し、組織の Active Directory ドメインに参加して、グローバルファイルキャッシュエッジ構成セクションに進みます。</block>
   <block id="08625e4693b2132a2e5fe21d62eb42fa" category="section-title">グローバルファイルキャッシュエッジインスタンスを構成します</block>
   <block id="8b4b411ffee316002bf45bd7da314311" category="paragraph">グローバルファイルキャッシュエッジインスタンスは、グローバルファイルキャッシュコアに接続して、ブランチオフィスのユーザにデータセンターファイルサーバリソースへのアクセスを提供します。</block>
   <block id="9ffedcb724b4feb8a504d1992a427f91" category="admonition">設定を開始する前に、 Cloud Volumes ONTAP 環境の一部として Edge インスタンスのライセンスを取得しておく必要があります。を参照してください <block ref="377fd5f39b29a70f5e638818d5a59395" category="inline-link-macro-rx"></block> ライセンスの詳細については、を参照してください。</block>
@@ -409,7 +391,6 @@
   <block id="f74032e7a801122d16bdf48f04518b8a" category="list-text">ポリシー設定でローカルに実行されているライセンス管理サーバ（ LMS ）サービスのハード依存関係を削除。</block>
   <block id="1835c27cfc517067592779b50d13190c" category="list-text">GFC カーネルドライバは、 Windows Server 2014/2019 の SMB Server サービスでクラッシュが発生しないように強化されています。</block>
   <block id="5876df88731069c35bfd4f3ea17e7db0" category="list-text">LMS サービスの例外を修正しました。</block>
-  <block id="e5c0b1995108f32cef1dcfc39528d164" category="summary">ネットアップのインテリジェントなグローバルファイルキャッシュを使用することで、分散した従業員のリアルタイムのグローバルファイル共有を実現できます。</block>
   <block id="59d1b154ff5b7aa340f3bb85aa0d59f7" category="doc">Global File Cache のドキュメント</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">グローバルファイルキャッシュを介して共有ファイルにアクセスするためのベストプラクティスについて、ユーザーにトレーニングを行います。</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">エンドユーザトレーニング</block>
@@ -421,7 +402,6 @@
   <block id="059c1b7392e6a6c2ea4557fa71fe51b1" category="inline-link-macro">MAC メールテンプレート（ .emltpl)</block>
   <block id="fb49f005426933770b6f22cd456f0e84" category="list-text">電子メールテンプレート<block ref="c829b8c00e5f8eb8a2fd450f41ab6401" category="inline-link-macro-rx"></block></block>
   <block id="7a499edce06c189532c243616b7132a3" category="inline-link-macro">Windows 電子メールテンプレート (.msg)</block>
-  <block id="13879d09fb35e1a9c0fd7f6435bfa323" category="paragraph"><block ref="13879d09fb35e1a9c0fd7f6435bfa323" category="inline-link-macro-rx"></block></block>
   <block id="b9c5f151d07a94019ba26f5d3579bcf9" category="inline-link-macro">Word 文書 (.docx)</block>
   <block id="a314a20204b96ce855b4edecf455498b" category="list-text">オンボーディングコミュニケーション<block ref="ec13a4ed87a907c97165059568a0b0f6" category="inline-link-macro-rx"></block></block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
@@ -436,7 +416,6 @@
   <block id="9d94c3aa32a0b32a0fa46fa0de0e1e81" category="sidebar">グローバルファイルキャッシュエッジを導入します</block>
   <block id="f7b80a79ecfae0fe3727cb596722172e" category="sidebar">グローバルファイルキャッシュを使用します</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
-  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="sidebar">新機能</block>
   <block id="98121bd163ebeee7679c81cb42cf7994" category="sidebar">コンポーネントを導入する</block>
   <block id="948b7b04e4691581ca1041a28de513f9" category="sidebar">ストレージプラットフォームとして Cloud Volumes ONTAP を導入</block>
   <block id="ab6b625ee85fc0d817e5d790e3080568" category="sidebar">Global File Cache Management Server および Global File Cache Core を導入します</block>
@@ -445,7 +424,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">その他のリソース</block>
-  <block id="c312a13dafd8799651830cedd659bf52" category="admonition">グローバルファイルキャッシュエッジについては、を理解することが重要です <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。これは、グローバルファイルキャッシュの配置に適した設計を行うのに役立ちます。また、拡張性、リソースの可用性、および冗長性の観点から、環境に最適なものを決定する必要があります。</block>
   <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">Global File Cache Edge が最適に機能するには、次のハードウェアおよびソフトウェアリソースが必要です。全体的なサイジングガイドラインの詳細については、を参照してください <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。</block>
   <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">ボリュームは、アプリケーション用のデータセットの合計数に対応できるだけの大きさであり、データセットの拡張に合わせて拡張できることを推奨します。作業環境に複数のアグリゲートがある場合は、を参照してください<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> をクリックして、新しいボリュームの空きスペースが最も多いアグリゲートを確認します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
@@ -495,15 +473,12 @@
   <block id="f3abc78aa44d210b1f7b92cda50a64cb" category="paragraph">このガイドラインでは、グローバルファイルキャッシュコアインスタンスごとに最大 10 個のエッジインスタンスを推奨しています。グローバルファイルキャッシュコアインスタンスごとに最大 20 個のエッジを使用します。これは、最も一般的なワークロードのタイプと平均ファイルサイズに大きく依存します。より一般的なワークロードでは、コアごとにEdgeインスタンスを追加できますが、このような場合は、ファイルセットの種類とサイズに応じて、EdgeインスタンスとCoreインスタンスの数を正しくサイジングする方法をアカウント担当者に確認してください。</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日（バージョン1.3.1）</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正された問題</block>
-  <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">バージョン1.3.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。このリリースでは、に記載されている問題が修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">アップグレード時に、正しいバージョンのMicrosoft再配布可能が正しくインストールされていないため、Tumが起動しません。GFCインストーラが修正され、正しいバージョンの再配布が可能になりました。</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">GFC License Manager Service（LMS）では、設定情報が上書きされるのではなく、更新されるようになりました。</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">構成UIは、アップグレードプロセス中に正しいSystem.net.http dllにバインドされるようになりました。</block>
   <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">グローバルファイルキャッシュコアインスタンスは、選択したバックエンドストレージプラットフォーム（Cloud Volumes ONTAP 、Cloud Volumes Service 、 Azure NetApp Files ）を作成してグローバルファイルキャッシュ「ファブリック」を作成します。このファブリックを使用すると、非構造化データをパブリッククラウド内の1つまたは複数のストレージプラットフォームに格納している場合でも、単一のデータセットに統合して一元管理できます。</block>
   <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">すべてのインストール環境で、クラウドに1つ以上のボリューム（Cloud Volumes ONTAP 、Cloud Volumes Service 、Azure NetApp Files など）を導入する必要があります。その結果、選択したクラウドプロバイダから料金が発生します。</block>
-  <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">AzureまたはAWSのCloud Volumes ONTAP システムでは、グローバルファイルキャッシュエッジインスタンスごとに年間3、000ドルを支払うことができます。</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">詳細はこちらをご覧ください</block>
-  <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">または、AzureのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、プロビジョニング済み容量の3TiBごとに、グローバルファイルキャッシュエッジインスタンスを1つ導入できます。<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>。</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（バージョン2.0）</block>
   <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">Optimusは、事前入力ジョブ追加設定の日付/時刻パラメータに境界制限を追加することで拡張されています。</block>
   <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">Optimus PSMで、システムの事前要求の詳細に正しいCPUの詳細が表示されるようになりました。</block>
@@ -573,15 +548,7 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
-  <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp Global File Cache User Guide（ .pdf ）</block>
-  <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
-  <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">詳細については、を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
-  <block id="f4ca9e5eaa8b2077803ade72c09e106c" category="paragraph">グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
-  <block id="d18c299cf227d8244308e2e8541aec05" category="paragraph">を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="954619d0b68860fec456402bc9591346" category="paragraph">を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> ライセンスの詳細については、を参照してください。</block>
-  <block id="2844ded52a9c24e06bfbc7cdb852373a" category="paragraph">グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（バージョン2.1）</block>
   <block id="0250bb801ae5ce790da0302493de52ea" category="list-text">GFCサブスクリプション番号の追加検証は、ライセンス設定時に実行されます。</block>
   <block id="45b34709f42790c0abe51e6c74090803" category="list-text">GFCは、Zuoraベースのライセンスの特定期間ライセンスを拡張するためのサポートを追加しました。GFCサポートにお問い合わせください。</block>
@@ -591,7 +558,6 @@
   <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">[CIへのインスタンスの登録]ボタンをクリックしてもOptimus構成UIがハングしないように修正しました。</block>
   <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">初期設定中にTserviceモニタを手動で残す問題 を修正。</block>
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">GFC CIエージェントクライアントサービスの小さなバグを修正しました。</block>
-  <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">Azureでは、127 GBの標準SSDを搭載したD2S_V3または同等の（2 vCPU / 8 GB RAM）VM上で実行されます</block>
   <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
@@ -605,11 +571,6 @@
   <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">Global File Cache Edgeは、仮想インスタンスまたは物理インスタンス上で実行されているかどうかを検出し、ローカル仮想ファイル共有へのSMB接続の数を最大300または500の同時接続に制限します。</block>
   <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">\ https://rest.zuora.com/v1/subscriptions/</block>
   <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMSインスタンスは、HTTPS（TCPポート443）を使用してサブスクリプションサービス（パブリックインターネット）に接続できる必要があります。</block>
-  <block id="df19cf6281f0ac141839cda71b8136bb" category="paragraph">の第14章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="5125c5dbc4823481461bfada1bc11efd" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
-<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
-  <block id="68bd2d9dc8ce644fa266363eb3c8a2a4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
-<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
   <block id="a82f8775c45fb832c573ea5925281014" category="list-text">Cloud Insights のグローバルファイルキャッシュダッシュボード：</block>
   <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights ダッシュボード（.ZIP）</block>
   <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
@@ -652,16 +613,11 @@
   <block id="00742b8e6b70e2e6be54e786e0f0e0dc" category="paragraph">を参照してください <block ref="14014d518c33fe634be510ffd082f6e6" category="inline-link-macro-rx"></block> グローバルファイルキャッシュエッジインスタンスを各リモートロケーションに配置するには、次の手順を実行します。この手順は、BlueXPでは実行されません。</block>
   <block id="ccb3361e0bb74752d28539cecb11c698" category="paragraph">グローバルファイルキャッシュは、BlueXP（旧Cloud Manager）を使用して導入された場合、次のタイプの作業環境でサポートされます。</block>
   <block id="047ef27152e6e48c1cd6cdc817a1a994" category="paragraph">この構成では、グローバルファイルキャッシュ管理サーバーとグローバルファイルキャッシュコアを含む、グローバルファイルキャッシュサーバー側の展開全体を、BlueXP内から展開および管理できます。</block>
-  <block id="35d08938d7a31dc353ca3c0ba6e0b0d2" category="paragraph">グローバルファイルキャッシュ構成は、パブリッククラウドストレージインフラにインストールされた ONTAP 、 Cloud Volumes Service 、 Azure NetApp Files 、 Amazon FSX for Cloud Volumes ONTAP でもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。これらのインストールでは、グローバルファイルキャッシュサーバー側のコンポーネントは、BlueXPを使用せずに手動で構成および展開する必要があります。</block>
-  <block id="842ad855e63b8b164194537c32f70fd6" category="list-text">Cloud Volumes ONTAP を使用してAzureまたはAWS（サポート対象の構成をBlueXPで完全に導入）にインストールした場合、次の2つの料金プランがあります。</block>
-  <block id="b7884b5b0ee1db7cf277ad778e802b12" category="paragraph">BlueXPでサポートされているグローバルファイルキャッシュのバージョンでは、中央ストレージとして使用されているバックエンドストレージプラットフォームが、AzureまたはAWSにCloud Volumes ONTAP シングルノードまたはHAペアを導入している作業環境である必要があります。</block>
-  <block id="5ecf46dba941f703531873c5dfcf0440" category="paragraph">他のストレージプラットフォームやその他のクラウドプロバイダは、現時点ではBlueXPを使用してサポートされていませんが、従来の導入手順を使用して導入することもできます。これらの他の構成（Google Cloud、Azure NetApp Files 、Amazon FSX for ONTAP システムでCloud Volumes ONTAP またはCloud Volumes Service を使用するグローバルファイルキャッシュなど）は、従来の手順を使用してサポートされます。を参照してください <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="1021643a2bbf7e9452d2fe532d5b828c" category="admonition">1 つの管理サーバで、異なる作業環境に配置された複数のグローバルファイルキャッシュコアインスタンスをサポートできます。BlueXPから導入した場合'それぞれの作業環境には独自のバックエンド・ストレージがあり'同じデータは含まれません</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">これは、バックエンドファイルサーバの組み込みBackup Operatorsグループのメンバーである必要があります（これは、BlueXPを使用して展開すると自動的に有効になります）。</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
-  <block id="e4f8a35ee8df8b5c247f6e3286e42891" category="sidebar">BlueXPのユースケース</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes ONTAP を導入します</block>
@@ -673,7 +629,6 @@
   <block id="78a1f5243df71b7c7a5b48c405de3540" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> グローバルファイルキャッシュのライセンスを取得します</block>
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">5 つ</block>
   <block id="24295577aa82d2c5e8f8e219ad4e3f59" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> グローバルファイルキャッシュエッジインスタンスを配置します</block>
-  <block id="d7fc8658f9e7754760fee0f4a1678e61" category="paragraph-title">次の手順</block>
   <block id="e66cf0363da426ff5fc40b5dff923ee7" category="paragraph-title">次の手順</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
@@ -739,4 +694,63 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
+  <block id="8d71ec4c749aef775828aa75152856f8" category="paragraph">グローバルファイルキャッシュの機能と使用例について詳しくは、こちらをご覧ください<block ref="22f31d74a3fd9f6832a197b37e8ed230" category="inline-link-rx"></block>。</block>
+  <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Cloud Volumes ONTAP をGoogle Cloudに導入</block>
+  <block id="0e0a4d9ce06eb747831ba33d35adafc6" category="paragraph">グローバルファイルキャッシュの構成は、Cloud Volumes ONTAP 、Azure NetApp Files 、Amazon FSx for ONTAP システム、Cloud Volumes Service on Google Cloudでもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。これらのインストールでは、グローバルファイルキャッシュサーバー側のコンポーネントは、BlueXPを使用せずに手動で構成および展開する必要があります。</block>
+  <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">お客様のActive Directoryドメインサービスとの統合。</block>
+  <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">Cloud Volumes ONTAP （BlueXPを通じて完全に導入されたサポート対象の構成）をインストールした場合は、次の2つの価格オプションがあります。</block>
+  <block id="acec429fba5828bd725c3a00f445a10c" category="list-text">Cloud Volumes ONTAP システムの場合、グローバルファイルキャッシュエッジインスタンスごとに年間3、000ドルを支払うことができます。</block>
+  <block id="21243adf418965466287a9ba959bfba6" category="list-text">または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにGlobal File Cache Edgeインスタンスを1つ導入できます。<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>。</block>
+  <block id="c8f4638b2e8300d1221c9f5fcd2483c6" category="paragraph">を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> ライセンスの詳細については、を参照してください。</block>
+  <block id="b2033362c712f89e43af564365b33df1" category="paragraph">BlueXPでサポートされるGlobal File Cacheのバージョンを使用するには、中央ストレージとして使用するバックエンドストレージプラットフォームが、Cloud Volumes ONTAP のシングルノードまたはHAペアをAzure、AWS、Google Cloudに導入した作業環境である必要があります。</block>
+  <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">現時点では、BlueXPを使用した他のストレージプラットフォームの導入はサポートされていませんが、従来の導入手順を使用して導入できます。その他の構成（たとえば、Amazon FSx for ONTAP システムを使用したグローバルファイルキャッシュ、Azure NetApp Files 、Google Cloud上のCloud Volumes Service など）は、従来の手順でサポートされます。を参照してください<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="b032654ffcd3f3794f5df4fbd3b80ae4" category="summary">ネットアップのインテリジェントなGlobal File Cacheを使用して、分散した業務環境でリアルタイムのグローバルファイル共有を実現できます。</block>
+  <block id="d0d546da16d9832ff46d61dc5ef26932" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
+<block ref="27773895991caccde32f6e33c69fec61" category="inline-link-rx"></block></block>
+  <block id="a9d760d85bb88dc8163208d766f23ca4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
+<block ref="3ec6d5c1525af8f42b563a3c3ab31adf" category="inline-link-rx"></block></block>
+  <block id="363f1ad303ff20d0b886e3a63a56597e" category="paragraph"><block ref="363f1ad303ff20d0b886e3a63a56597e" category="inline-link-rx"></block></block>
+  <block id="5151bb6c17edd826d3b324de615dcc4c" category="paragraph"><block ref="5151bb6c17edd826d3b324de615dcc4c" category="inline-link-rx"></block></block>
+  <block id="9153b7e16927ca534768c8cd36a9ef2e" category="admonition">グローバルファイルキャッシュエッジについては、を理解することが重要です <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>。これは、グローバルファイルキャッシュの配置に適した設計を行うのに役立ちます。また、拡張性、リソースの可用性、および冗長性の観点から、環境に最適なものを判断する必要があります。</block>
+  <block id="7c3c8fffbe87f176330b29a1b26ca517" category="paragraph">詳細については、を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
+  <block id="625e1f8a9bd13534d9a2ab98d82e1c32" category="paragraph">Global File Cache TCPポート：443（HTTPS-LMS）、6618~6630。</block>
+  <block id="c27d3a0b2dcee7aca905962f3b93b2e3" category="paragraph">Global File Cacheはお客様の環境に透過的に統合されるため、ユーザはクライアントワークステーションを使用してエンタープライズアプリケーションを実行し、一元化されたデータにアクセスできます。グローバルファイルキャッシュを使用すると、データには直接ドライブマッピングまたは DFS 名前空間を介してアクセスできます。グローバルファイルキャッシュファブリック、インテリジェントファイルキャッシング、およびソフトウェアの主な側面の詳細については、を参照してください <block ref="bf537e703603ffded61bf06d23640509" category="inline-link-macro-rx"></block> セクション。</block>
+  <block id="8e9641ef5de75133d4f34f86495391a3" category="paragraph">グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
+  <block id="70ce9b9dc2ba6a557307ced8b517fa5b" category="paragraph">このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block></block>
+  <block id="204d44b6be54971c264dcdd956240244" category="admonition">Edgeアプライアンスにアンチウイルスを追加すると、ユーザーのパフォーマンスに10～20%の影響が生じる可能性があります。</block>
+  <block id="84f46da6f3c078ca77f169febbcc5191" category="list-text">サードパーティのソフトウェアパッケージが原因でGlobal File Cacheとのソフトウェアやリソースの競合が発生したり、パフォーマンスが低下したりした場合、Global File Cacheのサポート部門は、お客様にGlobal File Cacheを実行しているサーバからソフトウェアを無効にするか削除するよう要求する場合があります。</block>
+  <block id="81ab9899a01f9267404f7197eaf46c8b" category="list-text">Global File Cacheアプリケーションを実行しているサーバに追加されたソフトウェアのインストール、統合、サポート、アップグレードはすべてお客様の責任で行ってください。</block>
+  <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">追加されたすべてのソフトウェアのインストール、統合、サポート、アップグレードについては、お客様の責任となります。</block>
+  <block id="f691fb7e2eb5afad71d17b081a7dc8ca" category="list-text">Global File Cacheとのソフトウェアまたはリソースの競合の原因となる、またはその原因となっていると思われるサードパーティ製ソフトウェアパッケージをお客様がインストールした場合、またはパフォーマンスが低下した場合は、Global File Cacheのサポート部門がソフトウェアを無効化または削除する必要がある可能性があります。</block>
+  <block id="8ecccfdcd4be3957ff4226f7ebc7a1a7" category="list-text">よくある質問とその回答のリストを参照してください<block ref="fc2092b82edf81356eaedffaf3f1bee1" category="inline-link-rx"></block></block>
+  <block id="d64a82ae72c0eea94e9d0109ce9f0e05" category="inline-link">『Global File Cache User Guide』を参照してください</block>
+  <block id="71048020ca8f58e44ec25370f4129cbc" category="list-text"><block ref="71048020ca8f58e44ec25370f4129cbc" category="inline-link-rx"></block></block>
+  <block id="b7d4822080efa7a461a554d7acc5efc3" category="list-text">すべてのネットアップ製品の追加ドキュメントを参照<block ref="9a789bf5bdb0e5a09882dca7f00da4c4" category="inline-link-rx"></block></block>
+  <block id="88f09088b20b06e1a7012e3ffa65e388" category="list-text">Guided Problem Solving 、ケース管理、ナレッジベース、ダウンロード、ツールなどを開始できます<block ref="eca618e94346161a35fc2403dedce81f" category="inline-link-rx"></block></block>
+  <block id="78d77960d647fd1dbafc3a595cdb709e" category="section-title">2023年3月27日（バージョン2.2）</block>
+  <block id="037927b8d80963531135cd8721c84101" category="list-text">'last modification time'オプションで事前入力ジョブを実行する時間形式を変換する問題 を修正しました。</block>
+  <block id="d7cf694ceaca6a7ba7e8e7829cfa1360" category="list-text">ファイル転送の解析とCloud Insights サービスへの転送に関連する問題 を修正しました。</block>
+  <block id="e1125e2c139d0c8b42ed21c205cb2763" category="list-text">パブリッシャとの接続が切断されると、すべてのサブスクライバ間のファイルのEdge Syncが自動的に再接続されます。</block>
+  <block id="cd969768bab3146a8d1291d73d5027ea" category="list-text">Edgeが複数のコアに接続されている場合、Edgeでの事前取り込みジョブの実行を修正しました。</block>
+  <block id="9139e540ca70203e9cbafb2a9ff3fa3d" category="list-text">Optimus UIでは、Edge Sync機能に参加しているパブリッシャのConnected Edgeリストが表示されるようになりました。</block>
+  <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023年4月5日（バージョン2.2）</block>
+  <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloudに導入されたCloud Volumes ONTAP システムでグローバルファイルキャッシュがサポートされます</block>
+  <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google CloudにCloud Volumes ONTAP システムを導入すると、新しい「エッジキャッシュ」ライセンスが利用可能になります。Cloud Volumes ONTAP システムの購入済み容量3TiBにつき、Global File Cache Edgeシステムを1つ導入できます。</block>
+  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
+  <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">セットアップウィザードとGFC設定UIが拡張され、ネットアップライセンスの登録が実行されるようになりました</block>
+  <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Optimus PSMが拡張され、Edge Sync機能が構成されます</block>
+  <block id="2991218cb9240c85cc1b72c630327e36" category="paragraph">このリリースでは、に記載されている問題が修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
+  <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Google Cloud で Cloud Volumes ONTAP を起動しています</block>
+  <block id="2b73cde380b325cb0d7cd3d8076023ae" category="paragraph">Cloud Volumes ONTAP を導入してSMBファイル共有を設定詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>または<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block>。</block>
+  <block id="c117ec42e957b5b5e832f50ceb208a6e" category="paragraph">Global File Cacheは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAP をサポートします。前提条件、要件、および導入手順の詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>または<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block></block>
+  <block id="b0a1aae83461ed34c467ae33db3288e7" category="list-text">グローバルファイルキャッシュ管理サーバー VM へのアクセスに使用する管理者資格情報を入力し、 * GFC サービスを有効にする * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。</block>
+  <block id="683e13b50b49af2ed3fbf2feda5cb66f" category="list-text">グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。</block>
+  <block id="ad205d172ad60dc4ec975caf2a5555e6" category="list-text">グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。</block>
+  <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
+  <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">の第14章を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="ffe522f5b1fc6081e4f51ef7c3f13743" category="list-text">Windows Server VMを構成し、組織のActive Directoryドメインに参加して、Global File Cache Edgeの構成セクションに進みます。</block>
+  <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新機能</block>
+  <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge Cachingのユースケース</block>
 </blocks>

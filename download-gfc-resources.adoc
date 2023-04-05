@@ -25,16 +25,16 @@ summary: グローバルファイルキャッシュエッジソフトウェア�
 * Windows Server 2016 仮想テンプレート：
 +
 https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["NetApp GFC を含む Windows Server * 2016.OVA （ VMware vSphere 6.5 以降）"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["NetApp GFC を含む Windows Server 2016-0x （ Microsoft Hyper-V ）"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["NetApp GFC を含む Windows Server 2016-0x （ Microsoft Hyper-V ）"^]
 
 * Windows Server 2019 仮想テンプレート：
 +
 https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 206.OVA （ NetApp GFC を含む）（ VMware vSphere 6.5 以降）"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["NetApp GFC （ Microsoft Hyper-V ）を含む Windows Server 19VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["NetApp GFC （ Microsoft Hyper-V ）を含む Windows Server 19VHDX"^]
 
 * グローバルファイルキャッシュエッジソフトウェア：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC ソフトウェアインストールパッケージ（ .EXE ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC ソフトウェアインストールパッケージ（ .EXE ）"^]
 
 * Cloud Insights のグローバルファイルキャッシュダッシュボード：
 +
@@ -42,7 +42,7 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud In
 
 * グローバルファイルキャッシュのドキュメント：
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp Global File Cache User Guide（ .pdf ）"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp Global File Cache User Guide（ .pdf ）"^]
 
 
 
@@ -58,7 +58,7 @@ NOTE: Windows Server 2016にグローバルファイルキャッシュを導入�
 要件によっては、ブランチオフィスでの同時ユーザーセッションに基づいて、 1 つまたは複数のグローバルファイルキャッシュエッジインスタンスを配置する必要があります。Edge インスタンスは、ブランチオフィス内のエンドユーザに仮想ファイル共有を提供します。これは、関連付けられた Global File Cache Core インスタンスから透過的に拡張されています。グローバルファイルキャッシュエッジには、ブランチオフィス内のキャッシュされたファイルを含む「 d:\`NTFS ボリューム」が含まれている必要があります。
 
 
-NOTE: グローバルファイルキャッシュエッジについては、を理解することが重要です link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["サイジングガイドライン"]。これは、グローバルファイルキャッシュの配置に適した設計を行うのに役立ちます。また、拡張性、リソースの可用性、および冗長性の観点から、環境に最適なものを決定する必要があります。
+NOTE: グローバルファイルキャッシュエッジについては、を理解することが重要です link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["サイジングガイドライン"]。これは、グローバルファイルキャッシュの配置に適した設計を行うのに役立ちます。また、拡張性、リソースの可用性、および冗長性の観点から、環境に最適なものを判断する必要があります。
 
 
 
@@ -149,7 +149,7 @@ VMware vSphere 6.x 以降：
 
 グローバルファイルキャッシュインテリジェントファイルキャッシュディスク（ D ： \ ）のディスクレイテンシは、同時ユーザーあたり 0.5 ミリ秒未満の平均 I/O ディスクレイテンシと 1 MiBps のスループットを実現する必要があります。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -157,7 +157,7 @@ VMware vSphere 6.x 以降：
 
 * ファイアウォール：グローバルファイルキャッシュエッジと管理サーバとコアインスタンスの間で TCP ポートを許可する必要があります。
 +
-グローバルファイルキャッシュ TCP ポート： 443 （ HTTPS-LMS ）、 6618 ～ 6630 。
+Global File Cache TCPポート：443（HTTPS-LMS）、6618~6630。
 
 * ネットワーク最適化デバイス（ Riverbed Steelhead など）は、グローバルファイルキャッシュ固有のポート（ TCP 6618-6630 ）をパススルーするように構成する必要があります。
 
@@ -166,11 +166,11 @@ VMware vSphere 6.x 以降：
 
 === クライアントワークステーションとアプリケーションのベストプラクティス
 
-Global File Cache は、お客様の環境に透過的に統合されるため、ユーザは、クライアントワークステーションを使用して、エンタープライズアプリケーションを実行しながら、集中管理されたデータにアクセスできます。グローバルファイルキャッシュを使用すると、データには直接ドライブマッピングまたは DFS 名前空間を介してアクセスできます。グローバルファイルキャッシュファブリック、インテリジェントファイルキャッシング、およびソフトウェアの主な側面の詳細については、を参照してください link:concept-before-you-begin-to-deploy-gfc.html["グローバルファイルキャッシュの展開を開始する前に"^] セクション。
+Global File Cacheはお客様の環境に透過的に統合されるため、ユーザはクライアントワークステーションを使用してエンタープライズアプリケーションを実行し、一元化されたデータにアクセスできます。グローバルファイルキャッシュを使用すると、データには直接ドライブマッピングまたは DFS 名前空間を介してアクセスできます。グローバルファイルキャッシュファブリック、インテリジェントファイルキャッシング、およびソフトウェアの主な側面の詳細については、を参照してください link:concept-before-you-begin-to-deploy-gfc.html["グローバルファイルキャッシュの展開を開始する前に"^] セクション。
 
 最適なエクスペリエンスとパフォーマンスを確保するには、『グローバルファイルキャッシュユーザーガイド』に記載されている Microsoft Windows クライアントの要件およびベストプラクティスに準拠することが重要です。これは、すべてのバージョンの Microsoft Windows に適用されます。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -178,7 +178,7 @@ Global File Cache は、お客様の環境に透過的に統合されるため�
 
 グローバルファイルキャッシュは、最も一般的なウィルス対策アプリケーションスイートがグローバルファイルキャッシュと互換性があるかどうかを検証するために相応の努力を払いますが、ネットアップでは、これらのプログラムや関連する更新、サービスパック、変更によって発生する互換性の問題やパフォーマンス上の問題については保証できず、責任も負いません。
 
-グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+グローバルファイルキャッシュは、グローバルファイルキャッシュが有効なインスタンス（コアまたはエッジ）に監視ソリューションやアンチウイルスソリューションをインストールしたり、適用したりすることは推奨しません。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -204,12 +204,12 @@ Global File Cache は、お客様の環境に透過的に統合されるため�
 
 === ウィルス対策のベストプラクティス
 
-このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
+このセクションでは、グローバルファイルキャッシュを実行している Windows Server インスタンスでアンチウイルスソフトウェアを実行する場合の要件について説明します。Global File Cacheでは、Cylance、McAfee、Symantec、Sophos、Trend Microなど、一般的に使用されているウィルス対策製品をテストしています。 Kaspersky、Gクラ ウドストライク、Cisco AMP、Tannium、およびWindows Defenderは、グローバルファイルキャッシュと組み合わせて使用できます。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
 
 
-NOTE: Edge アプライアンスにウィルス対策を追加すると、ユーザのパフォーマンスが 10~20% 低下する可能性があります。
+NOTE: Edgeアプライアンスにアンチウイルスを追加すると、ユーザーのパフォーマンスに10～20%の影響が生じる可能性があります。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -259,14 +259,14 @@ D:\ ドライブに加えて、一般に、次のグローバルファイルキ�
 * データベースサーバやメールサーバなど、リソースを大量に消費する基幹業務生産性ソフトウェアはサポートされていません。
 * グローバルファイルキャッシュを実行しているサーバーにインストールされているグローバルファイルキャッシュ以外のソフトウェアについては、お客様の責任となります。
 +
-** サードパーティ製のソフトウェアパッケージが原因で、ソフトウェアやリソースがグローバルファイルキャッシュと競合したり、パフォーマンスが低下したりする場合は、グローバルファイルキャッシュのサポート組織が、グローバルファイルキャッシュを実行しているサーバでソフトウェアを無効にしたり、削除したりするようにお客様に要求することがあります。
-** Global File Cache アプリケーションを実行しているサーバに追加されたすべてのソフトウェアのインストール、統合、サポート、アップグレードは、お客様の責任で行ってください。
+** サードパーティのソフトウェアパッケージが原因でGlobal File Cacheとのソフトウェアやリソースの競合が発生したり、パフォーマンスが低下したりした場合、Global File Cacheのサポート部門は、お客様にGlobal File Cacheを実行しているサーバからソフトウェアを無効にするか削除するよう要求する場合があります。
+** Global File Cacheアプリケーションを実行しているサーバに追加されたソフトウェアのインストール、統合、サポート、アップグレードはすべてお客様の責任で行ってください。
 
 
 * ウイルス対策ツールやライセンスエージェントなどのシステム管理ユーティリティ / エージェントは、共存できます。ただし、前述のサポートされているサービスとアプリケーションを除き、これらのアプリケーションはグローバルファイルキャッシュでサポートされていません。また、上記と同じガイドラインに従う必要があります。
 +
-** 追加したソフトウェアのインストール、統合、サポート、アップグレードは、お客様の責任で行ってください。
-** お客様が、ソフトウェアまたはリソースがグローバルファイルキャッシュと競合したり、パフォーマンスが低下したりする原因と思われるサードパーティ製ソフトウェアパッケージをインストールした場合、グローバルファイルキャッシュのサポート組織がソフトウェアを無効化または削除する必要がある場合があります。
+** 追加されたすべてのソフトウェアのインストール、統合、サポート、アップグレードについては、お客様の責任となります。
+** Global File Cacheとのソフトウェアまたはリソースの競合の原因となる、またはその原因となっていると思われるサードパーティ製ソフトウェアパッケージをお客様がインストールした場合、またはパフォーマンスが低下した場合は、Global File Cacheのサポート部門がソフトウェアを無効化または削除する必要がある可能性があります。
 
 
 

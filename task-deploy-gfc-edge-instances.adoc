@@ -67,7 +67,7 @@ summary: 環境がすべての要件を満たしていることを確認した�
 ** パスワード： * Tal0nFAST!*
 
 
-. Windows Server VM を構成し、組織の Active Directory ドメインに参加して、グローバルファイルキャッシュエッジ構成セクションに進みます。
+. Windows Server VMを構成し、組織のActive Directoryドメインに参加して、Global File Cache Edgeの構成セクションに進みます。
 
 
 
@@ -131,4 +131,4 @@ Global File Cache インストールパッケージを更新するために必�
 
 
 .次の手順
-グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。

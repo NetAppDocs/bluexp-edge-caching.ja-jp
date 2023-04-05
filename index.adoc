@@ -2,8 +2,8 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: Enable real-time global file sharing for your distributed workforce by using NetApp’s intelligent Global File Cache. 
-summary: ネットアップのインテリジェントなグローバルファイルキャッシュを使用することで、分散した従業員のリアルタイムのグローバルファイル共有を実現できます。 
+lead: 'Enable real-time global file sharing for your distributed workforce by using NetApp"s intelligent Global File Cache.' 
+summary: ネットアップのインテリジェントなGlobal File Cacheを使用して、分散した業務環境でリアルタイムのグローバルファイル共有を実現できます。 
 ---
 = Global File Cache のドキュメント
 :hardbreaks:

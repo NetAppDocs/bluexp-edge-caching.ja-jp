@@ -18,9 +18,31 @@ Global File Cache の新機能について説明します。
 
 
 
-== 2022年10月24日（バージョン2.1）
+== 2023年4月5日（バージョン2.2）
 
 このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。更新されたソフトウェアパッケージは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。
+
+
+
+=== Google Cloudに導入されたCloud Volumes ONTAP システムでグローバルファイルキャッシュがサポートされます
+
+Google CloudにCloud Volumes ONTAP システムを導入すると、新しい「エッジキャッシュ」ライセンスが利用可能になります。Cloud Volumes ONTAP システムの購入済み容量3TiBにつき、Global File Cache Edgeシステムを1つ導入できます。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。"]
+
+
+
+=== セットアップウィザードとGFC設定UIが拡張され、ネットアップライセンスの登録が実行されるようになりました
+
+
+
+=== Optimus PSMが拡張され、Edge Sync機能が構成されます
+
+
+
+== 2022年10月24日（バージョン2.1）
+
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
 
 
 
@@ -84,7 +106,7 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights の詳細については
 
 == 2022年6月23日（バージョン1.3.1）
 
-バージョン1.3.1用のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
 
 
 

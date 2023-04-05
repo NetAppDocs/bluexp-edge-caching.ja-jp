@@ -18,19 +18,19 @@ summary: グローバルファイルキャッシュなどのネットアップ�
 
 * グローバルファイルキャッシュに関する FAQ
 +
-** よくある質問とその回答のリストを参照してください link:https://cloud.netapp.com/global-file-cache-faq["こちらをご覧ください"^]
+** よくある質問とその回答のリストを参照してください https://bluexp.netapp.com/global-file-cache-faq["こちらをご覧ください"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『Global File Cache User Guide』を参照してください"^]
 * ネットアップの製品マニュアル
 +
 ** ネットアップのクラウド製品に関するその他のドキュメントを参照してください https://docs.netapp.com/us-en/cloud/["こちらをご覧ください"^]
-** すべてのネットアップ製品の追加ドキュメントを参照 https://docs.netapp.com["こちらをご覧ください"^]
+** すべてのネットアップ製品の追加ドキュメントを参照 https://www.netapp.com/support-and-training/documentation/["こちらをご覧ください"^]
 
 
 * Cloud Volumes ONTAP を使用したグローバルファイルキャッシュユーザに対するカスタマーサポートは、次のチャネルを介して利用できます。
 +
-** Guided Problem Solving 、ケース管理、ナレッジベース、ダウンロード、ツールなどを開始できます link:https://cloud.netapp.com/gfc-support["こちらをご覧ください"^]
+** Guided Problem Solving 、ケース管理、ナレッジベース、ダウンロード、ツールなどを開始できます https://bluexp.netapp.com/gfc-support["こちらをご覧ください"^]
 ** ネットアップサポートにログインします https://mysupport.netapp.com[] NSS のクレデンシャルを使用します
 ** P1 問題の迅速なサポートについては、 +1 856.481.3990 （オプション 2 ）までお電話ください。
 

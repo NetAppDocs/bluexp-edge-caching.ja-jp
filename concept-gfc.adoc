@@ -36,7 +36,7 @@ image:diagram_gfc_image1.png["リモートオフィスの場所がグローバ�
 * を使用したグローバルネームスペースを通じて、ブランチロケーションから透過的にアクセスできます リアルタイムのセントラルファイルロック
 
 
-グローバルファイルキャッシュの機能と使用例について詳しくは、こちらをご覧ください https://cloud.netapp.com/global-file-cache["こちらをご覧ください"^]。
+グローバルファイルキャッシュの機能と使用例について詳しくは、こちらをご覧ください https://bluexp.netapp.com/global-file-cache["こちらをご覧ください"^]。
 
 
 
@@ -67,6 +67,7 @@ image:diagram_gfc_image2.png["グローバルファイルキャッシュの詳�
 
 * Azure の Cloud Volumes ONTAP
 * AWS の Cloud Volumes ONTAP
+* Cloud Volumes ONTAP をGoogle Cloudに導入
 
 
 この構成では、グローバルファイルキャッシュ管理サーバーとグローバルファイルキャッシュコアを含む、グローバルファイルキャッシュサーバー側の展開全体を、BlueXP内から展開および管理できます。
@@ -75,9 +76,9 @@ image:diagram_gfc_image2.png["グローバルファイルキャッシュの詳�
 
 === 手動での導入オプション
 
-グローバルファイルキャッシュ構成は、パブリッククラウドストレージインフラにインストールされた ONTAP 、 Cloud Volumes Service 、 Azure NetApp Files 、 Amazon FSX for Cloud Volumes ONTAP でもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。これらのインストールでは、グローバルファイルキャッシュサーバー側のコンポーネントは、BlueXPを使用せずに手動で構成および展開する必要があります。
+グローバルファイルキャッシュの構成は、Cloud Volumes ONTAP 、Azure NetApp Files 、Amazon FSx for ONTAP システム、Cloud Volumes Service on Google Cloudでもサポートされています。オンプレミスソリューションは、ネットアップの AFF プラットフォームと FAS プラットフォームでも利用できます。これらのインストールでは、グローバルファイルキャッシュサーバー側のコンポーネントは、BlueXPを使用せずに手動で構成および展開する必要があります。
 
-を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] を参照してください。
+を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] を参照してください。
 
 
 
@@ -108,7 +109,7 @@ image:diagram_gfc_image3.png["Edge および Core のグローバルファイル
 ** Multiprotocol Label Switching （ MPLS ）、 ExpressRoute 、または VPN 接続
 
 
-* お客様の Active Directory ドメインサービスとの統合。
+* お客様のActive Directoryドメインサービスとの統合。
 * グローバルネームスペースを使用するための DFS ネームスペース（推奨）。
 
 
@@ -137,10 +138,10 @@ AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンス�
 
 
 
-* Cloud Volumes ONTAP を使用してAzureまたはAWS（サポート対象の構成をBlueXPで完全に導入）にインストールした場合、次の2つの料金プランがあります。
+* Cloud Volumes ONTAP （BlueXPを通じて完全に導入されたサポート対象の構成）をインストールした場合は、次の2つの価格オプションがあります。
 +
-** AzureまたはAWSのCloud Volumes ONTAP システムでは、グローバルファイルキャッシュエッジインスタンスごとに年間3、000ドルを支払うことができます。
-** または、AzureのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、プロビジョニング済み容量の3TiBごとに、グローバルファイルキャッシュエッジインスタンスを1つ導入できます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["詳細はこちらをご覧ください"]。
+** Cloud Volumes ONTAP システムの場合、グローバルファイルキャッシュエッジインスタンスごとに年間3、000ドルを支払うことができます。
+** または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにGlobal File Cache Edgeインスタンスを1つ導入できます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["詳細はこちらをご覧ください"]。
 
 
 * 手動導入オプションを使用してインストールした場合、価格は異なります。コストの概要を確認するには、を参照してください https://cloud.netapp.com/global-file-cache/roi["節約の可能性を計算します"^] または、グローバルファイルキャッシュソリューションエンジニアに相談して、エンタープライズ環境に最適なオプションについて相談してください。
@@ -156,12 +157,12 @@ AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンス�
 
 追加の Edge ライセンスを購入するか、サブスクリプションを更新すると、サポート / 運用部門は、サイト数やサブスクリプションの終了日など、ライセンスの詳細を更新します。LMS がサブスクリプションサービスを照会すると、ライセンスの詳細が LMS インスタンスで自動的に更新され、 GFC Core インスタンスおよび Edge インスタンスに適用されます。
 
-を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] ライセンスの詳細については、を参照してください。
+を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^] ライセンスの詳細については、を参照してください。
 
 
 
 == 制限
 
-BlueXPでサポートされているグローバルファイルキャッシュのバージョンでは、中央ストレージとして使用されているバックエンドストレージプラットフォームが、AzureまたはAWSにCloud Volumes ONTAP シングルノードまたはHAペアを導入している作業環境である必要があります。
+BlueXPでサポートされるGlobal File Cacheのバージョンを使用するには、中央ストレージとして使用するバックエンドストレージプラットフォームが、Cloud Volumes ONTAP のシングルノードまたはHAペアをAzure、AWS、Google Cloudに導入した作業環境である必要があります。
 
-他のストレージプラットフォームやその他のクラウドプロバイダは、現時点ではBlueXPを使用してサポートされていませんが、従来の導入手順を使用して導入することもできます。これらの他の構成（Google Cloud、Azure NetApp Files 、Amazon FSX for ONTAP システムでCloud Volumes ONTAP またはCloud Volumes Service を使用するグローバルファイルキャッシュなど）は、従来の手順を使用してサポートされます。を参照してください link:https://cloud.netapp.com/global-file-cache/onboarding["グローバルファイルキャッシュの概要とオンボーディング"^] を参照してください。
+現時点では、BlueXPを使用した他のストレージプラットフォームの導入はサポートされていませんが、従来の導入手順を使用して導入できます。その他の構成（たとえば、Amazon FSx for ONTAP システムを使用したグローバルファイルキャッシュ、Azure NetApp Files 、Google Cloud上のCloud Volumes Service など）は、従来の手順でサポートされます。を参照してください https://bluexp.netapp.com/global-file-cache/onboarding["グローバルファイルキャッシュの概要とオンボーディング"^] を参照してください。

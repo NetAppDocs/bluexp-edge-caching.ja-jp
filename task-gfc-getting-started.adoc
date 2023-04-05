@@ -32,7 +32,7 @@ BlueXPを使用して、Global File Cache Management ServerおよびGlobal File 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] Cloud Volumes ONTAP を導入します
 [role="quick-margin-para"]
-Azure または AWS に Cloud Volumes ONTAP を導入し、 SMB ファイル共有を設定詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^] または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]。
+Cloud Volumes ONTAP を導入してSMBファイル共有を設定詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud で Cloud Volumes ONTAP を起動しています"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] グローバルファイルキャッシュ管理サーバーを展開します
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ Azure または AWS に Cloud Volumes ONTAP を導入し、 SMB ファイル共�
 
 === ストレージプラットフォームとして Cloud Volumes ONTAP を導入
 
-現在のリリースでは、 Azure または AWS に導入された Cloud Volumes ONTAP がグローバルファイルキャッシュでサポートされています。前提条件、要件、および導入手順の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^] または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]。
+Global File Cacheは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAP をサポートします。前提条件、要件、および導入手順の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud で Cloud Volumes ONTAP を起動しています"^]
 
 次のグローバルファイルキャッシュの追加要件に注意してください。
 
@@ -91,7 +91,7 @@ image:screenshot_gfc_install3.png["使用可能な SMB 共有がない場合の 
 image:screenshot_gfc_install4.png["グローバルファイルキャッシュ管理サーバーおよびコアインスタンスを展開する前の前提条件を示すスクリーンショット。"]
 
 . 要件が満たされていること、またはこれらの要件を満たす情報があることを確認したら、 [* Continue （続行） ] をクリックします。
-. グローバルファイルキャッシュ管理サーバー VM へのアクセスに使用する管理者資格情報を入力し、 * GFC サービスを有効にする * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
+. グローバルファイルキャッシュ管理サーバー VM へのアクセスに使用する管理者資格情報を入力し、 * GFC サービスを有効にする * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
 +
 image:screenshot_gfc_install5.png["グローバルファイルキャッシュ管理サーバの設定に必要な設定情報を示すスクリーンショット。"]
 
@@ -105,7 +105,7 @@ image:screenshot_gfc_install6.png["Global File Cache Core Active Directory お�
 
 
 
-. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
+. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
 +
 image:screenshot_gfc_install7.png["グローバルファイルキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
 
@@ -182,7 +182,7 @@ image:screenshot_gfc_install6.png["Global File Cache Core Active Directory お�
 
 
 
-. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。Azure の場合はユーザ名およびパスワードとしてクレデンシャルを入力し、 AWS の場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。
+. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。
 +
 image:screenshot_gfc_install7.png["グローバルファイルキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
 
