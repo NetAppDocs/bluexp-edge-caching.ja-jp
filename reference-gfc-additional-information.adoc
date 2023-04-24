@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-gfc-additional-information.html 
 keywords: global file cache 
-summary: グローバルファイルキャッシュなどのネットアップ製品の詳細については、次のリンクを参照してください。 
+summary: BlueXPエッジキャッシングおよびその他のネットアップ製品の詳細については、次のリンクを参照してください。 
 ---
 = 追加情報
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: グローバルファイルキャッシュなどのネットアップ�
 
 
 [role="lead"]
-グローバルファイルキャッシュおよびその他のネットアップ製品の詳細については、次のリンクを参照してください。
+BlueXPエッジキャッシングおよびその他のネットアップ製品の詳細については、次のリンクを参照してください。
 
-* グローバルファイルキャッシュに関する FAQ
+* BlueXPのエッジキャッシュに関するFAQ
 +
 ** よくある質問とその回答のリストを参照してください https://bluexp.netapp.com/global-file-cache-faq["こちらをご覧ください"^]
 
@@ -28,12 +28,12 @@ summary: グローバルファイルキャッシュなどのネットアップ�
 ** すべてのネットアップ製品の追加ドキュメントを参照 https://www.netapp.com/support-and-training/documentation/["こちらをご覧ください"^]
 
 
-* Cloud Volumes ONTAP を使用したグローバルファイルキャッシュユーザに対するカスタマーサポートは、次のチャネルを介して利用できます。
+* Cloud Volumes ONTAPを使用するBlueXPエッジキャッシングユーザ向けのカスタマーサポートは、次のチャネルでご利用いただけます。
 +
 ** Guided Problem Solving 、ケース管理、ナレッジベース、ダウンロード、ツールなどを開始できます https://bluexp.netapp.com/gfc-support["こちらをご覧ください"^]
 ** ネットアップサポートにログインします https://mysupport.netapp.com[] NSS のクレデンシャルを使用します
 ** P1 問題の迅速なサポートについては、 +1 856.481.3990 （オプション 2 ）までお電話ください。
 
 
-* クラウドボリュームサービスと Azure NetApp Files を利用しているグローバルファイルキャッシュユーザを対象としたカスタマーサポートは、プロバイダからの標準サポートを通じて利用できます。Google カスタマーサポートまたは Microsoft カスタマーサポートにそれぞれお問い合わせください。
+* Cloud Volumes ServicesとAzure NetApp Filesを利用するBlueXPエッジキャッシングユーザは、プロバイダが提供する標準サポートを通じてカスタマーサポートを利用できます。Google カスタマーサポートまたは Microsoft カスタマーサポートにそれぞれお問い合わせください。
 

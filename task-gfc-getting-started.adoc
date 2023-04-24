@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: BlueXPを使用して、Global File Cache Management ServerおよびGlobal File Cache Coreソフトウェアを作業環境に展開します。 
+summary: 作業環境には、BlueXPのエッジキャッシュ管理サーバとコアソフトウェアを導入するためにBlueXPを使用します。 
 ---
 = はじめに
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: BlueXPを使用して、Global File Cache Management ServerおよびGlo
 
 
 [role="lead"]
-BlueXPを使用して、Global File Cache Management ServerおよびGlobal File Cache Coreソフトウェアを作業環境に展開します。
+作業環境には、BlueXPのエッジキャッシュ管理サーバとコアソフトウェアを導入するためにBlueXPを使用します。
 
 
 
-== BlueXPを使用してグローバルファイルキャッシュを有効にします
+== BlueXPを使用してBlueXPのエッジキャッシュを有効にします
 
-この構成では、グローバルファイルキャッシュ管理サーバーとグローバルファイルキャッシュコアを、BlueXPを使用してCloud Volumes ONTAP システムを作成したのと同じ作業環境に展開します。
+この構成では、BlueXPを使用してCloud Volumes ONTAPシステムを作成した作業環境と同じ作業環境に、BlueXPエッジキャッシュ管理サーバとBlueXPエッジキャッシュコアを導入します。
 
 見る link:https://www.youtube.com/watch?v=TGIQVssr43A["このビデオでは"^] をクリックして、最初から最後までのステップを確認してください。
 
@@ -34,49 +34,49 @@ BlueXPを使用して、Global File Cache Management ServerおよびGlobal File 
 [role="quick-margin-para"]
 Cloud Volumes ONTAP を導入してSMBファイル共有を設定詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud で Cloud Volumes ONTAP を起動しています"^]。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] グローバルファイルキャッシュ管理サーバーを展開します
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] BlueXPエッジキャッシュ管理サーバを導入します
 [role="quick-margin-para"]
-グローバルファイルキャッシュ管理サーバのインスタンスを、 Cloud Volumes ONTAP のインスタンスと同じ作業環境に導入します。
+BlueXPエッジキャッシュ管理サーバのインスタンスをCloud Volumes ONTAPのインスタンスと同じ作業環境に導入します。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] グローバルファイルキャッシュコアを展開します
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] BlueXPエッジキャッシングコアを導入します
 [role="quick-margin-para"]
-グローバルファイルキャッシュコアのインスタンスまたは複数のインスタンスを、 Cloud Volumes ONTAP のインスタンスと同じ作業環境に展開し、 Active Directory ドメインに参加させます。
+BlueXPエッジキャッシングコアの1つまたは複数のインスタンスをCloud Volumes ONTAPのインスタンスと同じ作業環境に導入し、Active Directoryドメインに参加させます。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["4."] グローバルファイルキャッシュのライセンスを取得します
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["4."] BlueXPエッジキャッシングのライセンスを取得します
 [role="quick-margin-para"]
-グローバルファイルキャッシュコアインスタンスに、グローバルファイルキャッシュライセンス管理サーバ（ LMS ）サービスを設定します。NSS のクレデンシャル、またはネットアップが提供するお客様 ID とサブスクリプション番号を確認して、サブスクリプションをアクティブ化してください。
+BlueXPエッジキャッシングコアインスタンスで、BlueXPエッジキャッシングライセンス管理サーバ（LMS）サービスを設定します。NSS のクレデンシャル、またはネットアップが提供するお客様 ID とサブスクリプション番号を確認して、サブスクリプションをアクティブ化してください。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["5 つ"] グローバルファイルキャッシュエッジインスタンスを配置します
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["5 つ"] BlueXPのエッジキャッシュエッジインスタンスを導入します
 [role="quick-margin-para"]
-を参照してください link:task-deploy-gfc-edge-instances.html["グローバルファイルキャッシュエッジインスタンスの配置"^] グローバルファイルキャッシュエッジインスタンスを各リモートロケーションに配置するには、次の手順を実行します。この手順は、BlueXPでは実行されません。
+を参照してください link:task-deploy-gfc-edge-instances.html["BlueXPエッジキャッシングエッジインスタンスの導入"^] BlueXPのエッジキャッシュエッジインスタンスをリモートの各場所に導入します。この手順は、BlueXPでは実行されません。
 
 
 
 === ストレージプラットフォームとして Cloud Volumes ONTAP を導入
 
-Global File Cacheは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAP をサポートします。前提条件、要件、および導入手順の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud で Cloud Volumes ONTAP を起動しています"^]
+BlueXPのエッジキャッシングは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAPに対応しています。前提条件、要件、および導入手順の詳細については、を参照してください https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure で Cloud Volumes ONTAP を起動します"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS での Cloud Volumes ONTAP の起動"^]または https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud で Cloud Volumes ONTAP を起動しています"^]
 
-次のグローバルファイルキャッシュの追加要件に注意してください。
+BlueXPのエッジキャッシュの追加要件は次のとおりです。
 
 * SMB ファイル共有は Cloud Volumes ONTAP のインスタンスで設定する必要があります。
 +
-インスタンスに SMB ファイル共有が設定されていない場合は、グローバルファイルキャッシュコンポーネントのインストール時に SMB 共有を設定するように求められます。
+インスタンスにSMBファイル共有がセットアップされていない場合は、BlueXPエッジキャッシュコンポーネントのインストール時にSMB共有を設定するように求められます。
 
 
 
 
 
-=== 作業環境でグローバルファイルキャッシュを有効にします
+=== 作業環境でBlueXPのエッジキャッシングを有効にします
 
-グローバルファイルキャッシュウィザードでは、以下に示すように、グローバルファイルキャッシュ管理サーバーインスタンスおよびグローバルファイルキャッシュコアインスタンスを展開する手順を順を追って説明します。
+インストールウィザードでは、以下に示すように、BlueXPエッジキャッシュ管理サーバインスタンスとBlueXPエッジキャッシュコアインスタンスを導入する手順を順を追って説明します。
 
-image:screenshot_gfc_install1.png["Global File Cache の初期インストールページのスクリーンショット。"]
+image:screenshot_gfc_install1.png["BlueXPエッジキャッシュインストールの最初のページのスクリーンショット。"]
 
 .手順
 . Cloud Volumes ONTAP を導入した作業環境を選択します。
-. サービスパネルで、 * GFC を有効にする * をクリックします。
+. [サービス]パネルで、_Edge caching_serviceの*[有効化]*をクリックします。
 +
-image:screenshot_gfc_install2.png["グローバルファイルキャッシュを有効にするための作業環境で最初に GFC を有効にするボタンのスクリーンショット。"]
+image:screenshot_gfc_install2.png["BlueXPエッジキャッシングを有効にするための、作業環境の最初の[Enable]ボタンのスクリーンショット。"]
 
 . 概要ページを読み、 * 続行 * をクリックします。
 . Cloud Volumes ONTAP インスタンスに使用可能な SMB 共有がない場合は、 SMB サーバおよび SMB 共有の詳細を入力して共有を作成するように求められます。SMB 設定の詳細については、を参照してください link:concept-before-you-begin-to-deploy-gfc.html#storage-platform-volumes["ストレージプラットフォーム"^]。
@@ -88,30 +88,30 @@ image:screenshot_gfc_install3.png["使用可能な SMB 共有がない場合の 
 
 . Global File Cache Service ページで、展開する Global File Cache Edge インスタンスの数を入力し、システムが Network Configuration and Firewall Rules 、 Active Directory の設定、および除外する Antivirus の要件を満たしていることを確認します。を参照してください link:concept-before-you-begin-to-deploy-gfc.html#prerequisites["前提条件"] 詳細：
 +
-image:screenshot_gfc_install4.png["グローバルファイルキャッシュ管理サーバーおよびコアインスタンスを展開する前の前提条件を示すスクリーンショット。"]
+image:screenshot_gfc_install4.png["BlueXPのエッジキャッシュ管理サーバインスタンスとコアインスタンスを導入する前の前提条件を示すスクリーンショット。"]
 
 . 要件が満たされていること、またはこれらの要件を満たす情報があることを確認したら、 [* Continue （続行） ] をクリックします。
-. グローバルファイルキャッシュ管理サーバー VM へのアクセスに使用する管理者資格情報を入力し、 * GFC サービスを有効にする * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
+. BlueXPエッジキャッシュ管理サーバVMへのアクセスに使用する管理者クレデンシャルを入力し、*[GFCサービスを有効にする]*をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
 +
-image:screenshot_gfc_install5.png["グローバルファイルキャッシュ管理サーバの設定に必要な設定情報を示すスクリーンショット。"]
+image:screenshot_gfc_install5.png["BlueXPエッジキャッシュ管理サーバのセットアップに必要な設定情報を示すスクリーンショット。"]
 
-. グローバルファイルキャッシュ管理サービスが正常に展開されたら、 [* 続行 ] をクリックします。
-. Global File Cache Core の場合、 Active Directory ドメインに参加するための管理者ユーザクレデンシャルとサービスアカウントユーザクレデンシャルを入力します。[* Continue （続行） ] をクリックします。
+. BlueXPエッジキャッシュ管理サービスの導入が完了したら、*[続行]*をクリックします。
+. BlueXPエッジキャッシングコアの場合、Active Directoryドメインに参加する管理者ユーザクレデンシャルと、サービスアカウントのユーザクレデンシャルを入力します。[* Continue （続行） ] をクリックします。
 +
-** グローバルファイルキャッシュコアインスタンスは、 Cloud Volumes ONTAP インスタンスと同じ Active Directory ドメインに配置する必要があります。
+** BlueXPエッジキャッシュコアインスタンスは、Cloud Volumes ONTAPインスタンスと同じActive Directoryドメインに導入する必要があります。
 ** サービスアカウントはドメインユーザであり、 Cloud Volumes ONTAP インスタンスの BUILTIN\Backup Operators グループに含まれます。
 +
-image:screenshot_gfc_install6.png["Global File Cache Core Active Directory およびサービスアカウントのセットアップに必要な設定情報を示すスクリーンショット。"]
+image:screenshot_gfc_install6.png["BlueXPエッジキャッシングのCore Active Directoryとサービスアカウントのセットアップに必要な設定情報を示すスクリーンショット。"]
 
 
 
-. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
+. BlueXPエッジキャッシュコアVMへのアクセスに使用する管理者クレデンシャルを入力し、*[Deploy GFC Core]*をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM / インスタンス名を変更できます。
 +
-image:screenshot_gfc_install7.png["グローバルファイルキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
+image:screenshot_gfc_install7.png["BlueXPのエッジキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
 
-. グローバルファイルキャッシュコアが正常に展開されたら、 * ダッシュボードへ移動 * をクリックします。
+. BlueXPエッジキャッシングコアの導入が完了したら、*[ダッシュボードに移動]*をクリックします。
 +
-image:screenshot_gfc_install8.png["インストールが完了した後のグローバルファイルキャッシュダッシュボードを示すスクリーンショット。"]
+image:screenshot_gfc_install8.png["インストールが完了したあとのBlueXPエッジキャッシュダッシュボードを示すスクリーンショット。"]
 
 
 
@@ -119,27 +119,27 @@ image:screenshot_gfc_install8.png["インストールが完了した後のグロ
 
 
 
-=== グローバルファイルキャッシュのインストールのライセンスを取得します
+=== BlueXPエッジキャッシュインストールのライセンスを取得します
 
-グローバルファイルキャッシュを使用する前に、グローバルファイルキャッシュコアインスタンス上でグローバルファイルキャッシュライセンス管理サーバ（ LMS ）サービスを設定する必要があります。NSS のクレデンシャル、またはお客様 ID とサブスクリプション番号をネットアップから取得して、サブスクリプションをアクティブ化する必要があります。
+BlueXPエッジキャッシングを使用する前に、BlueXPエッジキャッシングコアインスタンスでBlueXPエッジキャッシングライセンス管理サーバ（LMS）サービスを設定する必要があります。NSS のクレデンシャル、またはお客様 ID とサブスクリプション番号をネットアップから取得して、サブスクリプションをアクティブ化する必要があります。
 
 この例では、パブリッククラウドに展開したばかりのコアインスタンスに LMS サービスを設定します。これは、 LMS サービスをセットアップする 1 回限りのプロセスです。
 
 .手順
-. 次の URL を使用して、グローバルファイルキャッシュコア（ LMS サービスとして指定するコア）の [Global File Cache License Registration] ページを開きます。<IP_address> _ をグローバルファイルキャッシュコアの IP アドレスに置き換えます。https://<ip_address>/lms/api/v1/config/lmsconfig.html[]
+. 次のURLを使用して、BlueXPエッジキャッシングコア（LMSサービスとして指定するコア）の[Global File Cache License Registration]ページを開きます。BlueXP <ip_address>エッジキャッシュコアのIPアドレスを_ BlueXP _に置き換えます。https://<ip_address>/lms/api/v1/config/lmsconfig.html[]
 . 続行するには、 [Continue to this website （ not recommended ）（この Web サイトに進む（推奨しません）） ] をクリックしますLMS を設定したり、既存のライセンス情報を確認したりできるページが表示されます。
 +
-image:screenshot_gfc_license1.png["Global File Cache License Registration ページのスクリーンショット。"]
+image:screenshot_gfc_license1.png["BlueXPのEdgeキャッシングの[License Registration]ページのスクリーンショット。"]
 
 . 登録モードを選択します。
 +
-** 「 NetApp LMS 」は、ネットアップまたは認定パートナーから NetApp Global File Cache Edge ライセンスを購入したお客様に使用されます。（優遇料金）
+** 「NetApp LMS」は、ネットアップまたは認定パートナーからNetApp BlueXP Edge Cache Edgeライセンスを購入したお客様に使用されます。（優遇料金）
 ** 「レガシー LMS 」は、ネットアップサポートから顧客 ID を受け取った既存または試用版のお客様に使用されます。（このオプションは廃止されました）。
 
 
 . この例では、 * NetApp LMS * をクリックし、お客様 ID （できれば E メールアドレス）を入力して、 * Register LMS * をクリックします。
 +
-image:screenshot_gfc_license2.png["Global File Cache License Registration ページに On-Premise LMS Customer ID を入力するスクリーンショット。"]
+image:screenshot_gfc_license2.png["BlueXPエッジキャッシングの[License Registration]ページにオンプレミスLMSカスタマーIDを入力するスクリーンショット。"]
 
 . GFC ソフトウェアのサブスクリプション番号とシリアル番号が記載された確認の E メールがネットアップから届いているかどうかを確認します。
 +
@@ -157,15 +157,15 @@ GFC ライセンスサブスクリプションが正常に登録され、 LMS �
 
 
 .次の手順
-構成をサポートするために複数のグローバルファイルキャッシュコアを導入する必要があると判断した場合は、ダッシュボードで * コアインスタンスの追加 * をクリックし、導入ウィザードに従います。
+構成をサポートするためにBlueXPエッジキャッシュコアを複数導入する必要があると判断した場合は、ダッシュボードで*[コアインスタンスの追加]*をクリックし、導入ウィザードの指示に従います。
 
-コアの導入を完了したら、を実行する必要があります link:download-gfc-resources.html["グローバルファイルキャッシュエッジインスタンスを配置します"^] 各リモートオフィスに配置できます。
+コアの導入を完了したら、を実行する必要があります link:download-gfc-resources.html["BlueXPのエッジキャッシュエッジインスタンスを導入します"^] 各リモートオフィスに配置できます。
 
 
 
 == コアインスタンスを追加導入します
 
-多数の Edge インスタンスがあるために複数の Global File Cache Core をインストールする必要がある構成の場合は、作業環境に別の Core を追加できます。
+Edgeインスタンスの数が多いためにBlueXPエッジキャッシュコアを複数インストールする必要がある構成では、作業環境にコアをもう1つ追加できます。
 
 Edge インスタンスを配置する場合は、最初のコアに接続するように一部を設定し、他のコアを 2 番目のコアに接続するように設定します。両方のコアインスタンスが作業環境内の同じバックエンドストレージ（ Cloud Volumes ONTAP インスタンス）にアクセスします。
 
@@ -175,20 +175,20 @@ image:screenshot_gfc_add_another_core.png["GFC ダッシュボードのスクリ
 
 . Active Directory ドメインに参加するための管理者ユーザクレデンシャルとサービスアカウントユーザクレデンシャルを入力します。[* Continue （続行） ] をクリックします。
 +
-** グローバルファイルキャッシュコアインスタンスは、 Cloud Volumes ONTAP インスタンスと同じ Active Directory ドメインに存在する必要があります。
+** BlueXPエッジキャッシュコアインスタンスは、Cloud Volumes ONTAPインスタンスと同じActive Directoryドメインに配置する必要があります。
 ** サービスアカウントはドメインユーザであり、 Cloud Volumes ONTAP インスタンスの BUILTIN\Backup Operators グループに含まれます。
 +
-image:screenshot_gfc_install6.png["Global File Cache Core Active Directory およびサービスアカウントのセットアップに必要な設定情報を示すスクリーンショット。"]
+image:screenshot_gfc_install6.png["BlueXPエッジキャッシングのCore Active Directoryとサービスアカウントのセットアップに必要な設定情報を示すスクリーンショット。"]
 
 
 
-. グローバルファイルキャッシュコア VM へのアクセスに使用する管理者資格情報を入力し、 * GFC コアの展開 * をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。
+. BlueXPエッジキャッシュコアVMへのアクセスに使用する管理者クレデンシャルを入力し、*[Deploy GFC Core]*をクリックします。AzureとGoogle Cloudの場合はユーザ名とパスワードとしてクレデンシャルを入力し、AWSの場合は適切なキーペアを選択します。必要に応じて VM 名を変更することができます。
 +
-image:screenshot_gfc_install7.png["グローバルファイルキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
+image:screenshot_gfc_install7.png["BlueXPのエッジキャッシュコアインスタンスのセットアップに必要な設定情報を示すスクリーンショット。"]
 
-. グローバルファイルキャッシュコアが正常に展開されたら、 * ダッシュボードへ移動 * をクリックします。
+. BlueXPエッジキャッシングコアの導入が完了したら、*[ダッシュボードに移動]*をクリックします。
 +
-image:screenshot_gfc_dashboard_2cores.png["インストールが完了した後のグローバルファイルキャッシュダッシュボードを示すスクリーンショット。"]
+image:screenshot_gfc_dashboard_2cores.png["インストールが完了したあとのBlueXPエッジキャッシュダッシュボードを示すスクリーンショット。"]
 
 
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: fixed-issues.html 
 keywords: fixed issues, release notes, fixes, gfc, global file cache 
-summary: グローバルファイルキャッシュで解決された問題を確認します。 
+summary: BlueXPエッジキャッシングで解決された問題を確認します。 
 ---
-= グローバルファイルキャッシュの問題が解決されました
+= BlueXPのエッジキャッシングの問題が解決されました
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: グローバルファイルキャッシュで解決された問題を�
 
 
 [role="lead"]
-グローバルファイルキャッシュで解決された問題を確認します。
+BlueXPエッジキャッシングで解決された問題を確認します。
 
 
 

@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'Enable real-time global file sharing for your distributed workforce by using NetApp"s intelligent Global File Cache.' 
-summary: ネットアップのインテリジェントなGlobal File Cacheを使用して、分散した業務環境でリアルタイムのグローバルファイル共有を実現できます。 
+lead: BlueXP edge caching lets you create a centralized file store that serves remote locations around the globe. With edge caching, frequently accessed data is maintained in each of the associated remote edge locations and can be accessed without the latency involved with accessing data over WAN, while remaining under central control. 
+summary: BlueXPのエッジキャッシングを使用すると、一元化されたファイルストアを作成して、世界中のリモートサイトにサービスを提供できます。エッジキャッシングを使用すると、アクセス頻度の高いデータは、関連付けられたリモートエッジの各場所に保持され、WAN経由でのデータアクセスに伴うレイテンシなしでアクセスでき、一元的に管理できます。 
 ---
-= Global File Cache のドキュメント
+= BlueXPのエッジキャッシングに関するドキュメント
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache' 
-summary: Global File Cache の新機能について説明します。 
+summary: BlueXPエッジキャッシングの新機能をご紹介します。 
 ---
-= Global File Cache の新機能
+= BlueXPエッジキャッシングの新機能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Global File Cache の新機能について説明します。
 
 
 [role="lead"]
-Global File Cache の新機能について説明します。
+BlueXPエッジキャッシングの新機能をご紹介します。
 
 
 
