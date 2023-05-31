@@ -252,9 +252,7 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">その他のリソース</block>
-  <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">ボリュームは、アプリケーション用のデータセットの合計数に対応できるだけの大きさであり、データセットの拡張に合わせて拡張できることを推奨します。作業環境に複数のアグリゲートがある場合は、を参照してください<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> をクリックして、新しいボリュームの空きスペースが最も多いアグリゲートを確認します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
@@ -289,7 +287,6 @@
   <block id="c2a4e35926866a1322a751f57a7f847a" category="list-text">Tumのログインフラストラクチャが更新され、拡張性が向上し、パフォーマンスが向上しました。</block>
   <block id="959915525ca7f68401340816fbc38d13" category="list-text">License Manager Server Service（LMS）、License Manager Client Service（LMC）、およびPre-Population Service（TappN）のサービス開始タイプは、「Automatic Delayed（自動遅延）」から「Automatic（自動）」に変更されます。</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">このページです</block>
-  <block id="538b3d7be12bcc1f18433981df773bc1" category="paragraph">バージョン1.3.0のグローバルファイルキャッシュエッジソフトウェアは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
   <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">新しいメタデータエッジ同期機能</block>
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">この「メタデータエッジ同期」機能は、エッジ同期機能をコアフレームワークとして使用します。すべてのサブスクライブ済みエッジでメタデータ情報のみが更新され、Edgeマシンでファイル/フォルダが作成されます。</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager Serviceの機能強化</block>
@@ -312,7 +309,6 @@
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure Marketplaceからのグローバルファイルキャッシュの容量ベースの新しいライセンスモデル</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新しい「Edge Cache」ライセンスには、「CVO Professional」ライセンスと同じ機能がありますが、グローバルファイルキャッシュのサポートも含まれています。このオプションは、Azureに新しいCloud Volumes ONTAP システムを導入するときに表示されます。Cloud Volumes ONTAP システムでプロビジョニングされた容量3TiBにつき、グローバルファイルキャッシュエッジシステムを1台導入することができます。少なくとも30TiBをプロビジョニングする必要があります。GFC License Managerサービスが拡張され、容量ベースのライセンスが提供されるようになりました。</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。</block>
-  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
   <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">グローバルファイルキャッシュがCloud Insights に統合されました</block>
   <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights の詳細については、こちらをご覧ください。</block>
   <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
@@ -336,7 +332,6 @@
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
@@ -344,7 +339,6 @@
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
@@ -363,7 +357,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
@@ -382,7 +375,6 @@
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">GFC CIエージェントクライアントサービスの小さなバグを修正しました。</block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">Azureでは、127 GBの標準SSDを搭載したD2S_V3または同等の（2 vCPU / 8 GB RAM）VM上で実行されます</block>
-  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">グローバルファイルキャッシュは、任意の数のライセンスで使用できるようになりました</block>
   <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">これまでに必要だった10個のライセンス、つまり30 TBのストレージは削除されました。Global File Cacheライセンスは、3 TBのストレージごとに1つずつ発行されます。</block>
   <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">オフラインライセンス管理サーバを使用するためのサポートが追加されました</block>
@@ -394,7 +386,6 @@
   <block id="a82f8775c45fb832c573ea5925281014" category="list-text">Cloud Insights のグローバルファイルキャッシュダッシュボード：</block>
   <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights ダッシュボード（.ZIP）</block>
   <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
-  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。更新されたソフトウェアパッケージは、から入手できます<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
   <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">エッジインスタンスは、追加の同時ユーザーをサポートできます</block>
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">1つのグローバルファイルキャッシュエッジインスタンスは、専用の物理エッジインスタンス1つにつき最大500ユーザー、専用の仮想配置で最大300ユーザーを処理できます。使用可能なユーザの最大数は、それぞれ400と200です。</block>
   <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights （CI）では、インフラとアプリケーションを包括的に可視化できます。グローバルファイルキャッシュがCIと統合され、すべてのエッジとコアを完全に可視化し、インスタンスで実行されているプロセスを監視できるようになりました。さまざまなグローバルファイルキャッシュメトリックがCIにプッシュされ、CIダッシュボードの全体的な概要が表示されます。の第11章を参照してください<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
@@ -427,7 +418,6 @@
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">これは、バックエンドファイルサーバの組み込みBackup Operatorsグループのメンバーである必要があります（これは、BlueXPを使用して展開すると自動的に有効になります）。</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
@@ -449,11 +439,8 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
@@ -476,28 +463,20 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">テーブルに表示されるプラスアイコン</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
   <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Cloud Volumes ONTAP をGoogle Cloudに導入</block>
   <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> を参照してください。</block>
@@ -528,12 +507,9 @@
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023年4月5日（バージョン2.2）</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloudに導入されたCloud Volumes ONTAP システムでグローバルファイルキャッシュがサポートされます</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google CloudにCloud Volumes ONTAP システムを導入すると、新しい「エッジキャッシュ」ライセンスが利用可能になります。Cloud Volumes ONTAP システムの購入済み容量3TiBにつき、Global File Cache Edgeシステムを1つ導入できます。</block>
-  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
   <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">セットアップウィザードとGFC設定UIが拡張され、ネットアップライセンスの登録が実行されるようになりました</block>
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Optimus PSMが拡張され、Edge Sync機能が構成されます</block>
-  <block id="2991218cb9240c85cc1b72c630327e36" category="paragraph">このリリースでは、に記載されている問題が修正されています<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Google Cloud で Cloud Volumes ONTAP を起動しています</block>
-  <block id="2b73cde380b325cb0d7cd3d8076023ae" category="paragraph">Cloud Volumes ONTAP を導入してSMBファイル共有を設定詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>または<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block>。</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
   <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">の第14章を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> を参照してください。</block>
   <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">グローバルファイルキャッシュエッジの高度な設定の詳細については、を参照してください<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
@@ -606,7 +582,6 @@
   <block id="da63fa9bb21eb25f5f57f093c864f2e2" category="list-text">BlueXPエッジキャッシュ管理サーバ：</block>
   <block id="2f0a1e2943548b4d2c575728fff09264" category="list-text">BlueXPエッジキャッシングコア：</block>
   <block id="07fb1269841f7291dfbea77bd07f01c9" category="list-text">Cloud Volumes ONTAPシステムでは、BlueXPエッジキャッシングエッジインスタンスごとに年間3、000ドルを支払うことができます。</block>
-  <block id="79cfd0467a2c3cce9c27dc88c6f2b9c2" category="list-text">または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにBlueXPエッジキャッシングエッジインスタンスを1つ導入できます。<block ref="60136c2b0ea733a67f6c719e0fbaea2e" category="inline-link-rx"></block>。</block>
   <block id="7d78fe64ccb6332f6ee84a1d7a54e2cd" category="list-text">手動導入オプションを使用してインストールした場合、価格は異なります。コストの概要を確認するには、を参照してください<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> また、エンタープライズ環境に最適なオプションについては、ネットアップのソリューションエンジニアにお問い合わせください。</block>
   <block id="54ec0cdb19cb605eacd486e1e3eae2e4" category="paragraph">BlueXPのエッジキャッシングには、ソフトウェアベースのライセンス管理サーバ（LMS）が含まれています。このサーバを使用すると、ライセンス管理を統合し、自動化されたメカニズムを使用して、すべてのコアインスタンスとエッジインスタンスにライセンスを導入できます。</block>
   <block id="6c7f33700ec1daf2a7db9d9ef1a1b6d8" category="paragraph">BlueXP（Cloud Volume Edge Cache）でサポートされるBlueXPエッジキャッシングのバージョンでは、中央ストレージとして使用するバックエンドストレージプラットフォームが、Cloud Volumes ONTAPのシングルノードまたはHAペアをAzure、AWS、Google Cloudに導入した作業環境である必要があります。</block>
@@ -678,7 +653,6 @@
   <block id="d04885a778b925accc9afb2408cffc16" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> BlueXPのエッジキャッシュエッジインスタンスを導入します</block>
   <block id="a3478e6d52ae4f0ad63d093777515615" category="inline-link-macro">BlueXPエッジキャッシングエッジインスタンスの導入</block>
   <block id="72618ee12aaa89a8ff8190e4cfaebf76" category="paragraph">を参照してください <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> BlueXPのエッジキャッシュエッジインスタンスをリモートの各場所に導入します。この手順は、BlueXPでは実行されません。</block>
-  <block id="3919b01d29c5218479fcbb29fbcdf267" category="paragraph">BlueXPのエッジキャッシングは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAPに対応しています。前提条件、要件、および導入手順の詳細については、を参照してください<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>または<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block></block>
   <block id="370b94610a07d4acffd09200c2a83123" category="paragraph">BlueXPのエッジキャッシュの追加要件は次のとおりです。</block>
   <block id="7c91a8c26657bad5dc6f80e7c67c912e" category="paragraph">インスタンスにSMBファイル共有がセットアップされていない場合は、BlueXPエッジキャッシュコンポーネントのインストール時にSMB共有を設定するように求められます。</block>
   <block id="46142bb722729a4171bd2579b394eb8a" category="section-title">作業環境でBlueXPのエッジキャッシングを有効にします</block>
@@ -755,4 +729,30 @@
   <block id="a9d0b37e45f41dd1d52ab5a771557b0b" category="sidebar">BlueXPエッジキャッシングエッジを導入</block>
   <block id="df1f69fe50ad765ccb959276db879f1f" category="sidebar">BlueXPのエッジキャッシングを使用</block>
   <block id="1b16252715ee63d29e9c78d78a69c523" category="sidebar">BlueXPエッジキャッシュ管理サーバとコアを導入します</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="91ea063dfcaf2cbae3a931cc1d0a28a8" category="paragraph">ボリュームは、アプリケーション用のデータセットの合計数に対応できるだけの大きさであり、データセットの拡張に合わせて拡張できることを推奨します。作業環境に複数のアグリゲートがある場合は、を参照してください<block ref="89800d58631629b790a13a9de7981f0e" category="inline-link-rx"></block> をクリックして、新しいボリュームの空きスペースが最も多いアグリゲートを確認します。</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">Cloud Volumes ONTAP を導入してSMBファイル共有を設定詳細については、を参照してください<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>または<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>。</block>
+  <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXPのエッジキャッシングは、Azure、AWS、Google Cloudに導入されたCloud Volumes ONTAPに対応しています。前提条件、要件、および導入手順の詳細については、を参照してください<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>または<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
+  <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにBlueXPエッジキャッシングエッジインスタンスを1つ導入できます。<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>。</block>
+  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。更新されたソフトウェアパッケージは、から入手できます<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
+  <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
+  <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
+  <block id="2466aaf1d1f57cfbe736e835f936a857" category="paragraph">このリリースでは、に記載されている問題が修正されています<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
+  <block id="83a5e35b6b359abe6f4e440efbdffd38" category="paragraph">バージョン1.3.0のグローバルファイルキャッシュエッジソフトウェアは、から入手できます<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">をクリックして既存のケースを管理します <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

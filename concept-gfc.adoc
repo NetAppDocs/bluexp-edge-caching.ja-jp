@@ -143,7 +143,7 @@ AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンス�
 * Cloud Volumes ONTAP （BlueXPを通じて完全に導入されたサポート対象の構成）をインストールした場合は、次の2つの価格オプションがあります。
 +
 ** Cloud Volumes ONTAPシステムでは、BlueXPエッジキャッシングエッジインスタンスごとに年間3、000ドルを支払うことができます。
-** または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにBlueXPエッジキャッシングエッジインスタンスを1つ導入できます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["詳細はこちらをご覧ください"^]。
+** または、AzureおよびGCPのCloud Volumes ONTAP システムの場合は、Cloud Volumes ONTAP エッジキャッシュパッケージを選択できます。この容量ベースのライセンスでは、購入した容量3TiBごとにBlueXPエッジキャッシングエッジインスタンスを1つ導入できます。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["詳細はこちらをご覧ください"^]。
 
 
 * 手動導入オプションを使用してインストールした場合、価格は異なります。コストの概要を確認するには、を参照してください https://bluexp.netapp.com/global-file-cache/roi["節約の可能性を計算します"^] また、エンタープライズ環境に最適なオプションについては、ネットアップのソリューションエンジニアにお問い合わせください。

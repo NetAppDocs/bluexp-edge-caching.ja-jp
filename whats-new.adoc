@@ -20,7 +20,7 @@ BlueXPエッジキャッシングの新機能をご紹介します。
 
 == 2023年4月5日（バージョン2.2）
 
-このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。更新されたソフトウェアパッケージは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。更新されたソフトウェアパッケージは、から入手できます https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["このページです"]。
 
 
 
@@ -28,7 +28,7 @@ BlueXPエッジキャッシングの新機能をご紹介します。
 
 Google CloudにCloud Volumes ONTAP システムを導入すると、新しい「エッジキャッシュ」ライセンスが利用可能になります。Cloud Volumes ONTAP システムの購入済み容量3TiBにつき、Global File Cache Edgeシステムを1つ導入できます。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。"]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。"]
 
 
 
@@ -42,7 +42,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022年10月24日（バージョン2.1）
 
-このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。
 
 
 
@@ -74,7 +74,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022年7月25日（バージョン2.0）
 
-このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。
 
 
 
@@ -82,7 +82,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 新しい「Edge Cache」ライセンスには、「CVO Professional」ライセンスと同じ機能がありますが、グローバルファイルキャッシュのサポートも含まれています。このオプションは、Azureに新しいCloud Volumes ONTAP システムを導入するときに表示されます。Cloud Volumes ONTAP システムでプロビジョニングされた容量3TiBにつき、グローバルファイルキャッシュエッジシステムを1台導入することができます。少なくとも30TiBをプロビジョニングする必要があります。GFC License Managerサービスが拡張され、容量ベースのライセンスが提供されるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。"]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cacheライセンスパッケージの詳細については、こちらをご覧ください。"]
 
 
 
@@ -106,13 +106,13 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights の詳細については
 
 == 2022年6月23日（バージョン1.3.1）
 
-このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正された問題"]。
+このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。
 
 
 
 == 2022年5月19日（バージョン1.3.0）
 
-バージョン1.3.0のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["このページです"]。
+バージョン1.3.0のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["このページです"]。
 
 
 
