@@ -21,7 +21,7 @@ BlueXPエッジキャッシングおよびその他のネットアップ製品�
 ** よくある質問とその回答のリストを参照してください https://bluexp.netapp.com/global-file-cache-faq["こちらをご覧ください"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『Global File Cache User Guide』を参照してください"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『Global File Cache User Guide』を参照してください"^]
 * ネットアップの製品マニュアル
 +
 ** ネットアップのクラウド製品に関するその他のドキュメントを参照してください https://docs.netapp.com/us-en/cloud/["こちらをご覧ください"^]

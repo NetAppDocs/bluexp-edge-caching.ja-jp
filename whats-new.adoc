@@ -18,9 +18,15 @@ BlueXPエッジキャッシングの新機能をご紹介します。
 
 
 
+== 2023年8月1日（バージョン2.3）
+
+このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。更新されたソフトウェアパッケージは、から入手できます https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["このページです"]。
+
+
+
 == 2023年4月5日（バージョン2.2）
 
-このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。更新されたソフトウェアパッケージは、から入手できます https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["このページです"]。
+このリリースでは、以下に示す新機能が提供されます。また、に記載されている問題も修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。
 
 
 
@@ -101,27 +107,3 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights の詳細については
 
 
 === OptimusのEdge Sync UIが強化され、接続されているクライアントのリストがコーディネータEdgeに表示されるようになりました
-
-
-
-== 2022年6月23日（バージョン1.3.1）
-
-このリリースでは、に記載されている問題が修正されています https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正された問題"]。
-
-
-
-== 2022年5月19日（バージョン1.3.0）
-
-バージョン1.3.0のグローバルファイルキャッシュエッジソフトウェアは、から入手できます https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["このページです"]。
-
-
-
-=== 新しいメタデータエッジ同期機能
-
-この「メタデータエッジ同期」機能は、エッジ同期機能をコアフレームワークとして使用します。すべてのサブスクライブ済みエッジでメタデータ情報のみが更新され、Edgeマシンでファイル/フォルダが作成されます。
-
-
-
-=== License Manager Serviceの機能強化
-
-Global File Cache License Management Server（LMS）サービスが拡張され、プロキシ設定が自動検出されるようになりました。これにより、シームレスな構成が可能になります。

@@ -24,17 +24,17 @@ summary: リモートオフィスにBlueXP Edge Caching Edgeソフトウェア�
 
 * Windows Server 2016 仮想テンプレート：
 +
-https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["NetApp GFC を含む Windows Server * 2016.OVA （ VMware vSphere 6.5 以降）"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["NetApp GFC を含む Windows Server 2016-0x （ Microsoft Hyper-V ）"^]
+https://repo.cloudsync.netapp.com/gfc/2k16-2_3_0-55.zip["NetApp GFC を含む Windows Server * 2016.OVA （ VMware vSphere 6.5 以降）"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_3_0_55IMAGE.zip["NetApp GFC を含む Windows Server 2016-0x （ Microsoft Hyper-V ）"^]
 
 * Windows Server 2019 仮想テンプレート：
 +
-https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 206.OVA （ NetApp GFC を含む）（ VMware vSphere 6.5 以降）"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["NetApp GFC （ Microsoft Hyper-V ）を含む Windows Server 19VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2k19-2_3_0-55.zip["Windows Server 206.OVA （ NetApp GFC を含む）（ VMware vSphere 6.5 以降）"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["NetApp GFC （ Microsoft Hyper-V ）を含む Windows Server 19VHDX"^]
 
-* BlueXPエッジキャッシングエッジソフトウェア：
+* BlueXP Edgeキャッシュエッジソフトウェア：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC ソフトウェアインストールパッケージ（ .EXE ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["NetApp GFC ソフトウェアインストールパッケージ（ .EXE ）"^]
 
 * Cloud Insights のグローバルファイルキャッシュダッシュボード：
 +
@@ -42,11 +42,11 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud In
 
 * グローバルファイルキャッシュのドキュメント：
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp Global File Cache User Guide（ .pdf ）"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["NetApp Global File Cache User Guide（ .pdf ）"^]
 
 
 
-link：task-deploy-gfc-edge-instances.html#update-bluexp-edge caching-edge-software [以下の手順に従ってください]、BlueXP Edge Caching Edgeソフトウェアをアップグレードしてください。
+link:task-deploy-gfc-edge-instances.html#update-bluexp-edge-caching-edge-software["次の手順を実行します"] をクリックして、BlueXP Edge Caching Edgeソフトウェアをアップグレードしてください。
 
 
 NOTE: Windows Server 2016にBlueXPエッジキャッシュを導入する場合は、.NET Framework 4.8とWindows WebView2フレームワークを使用する必要があります。
@@ -149,7 +149,7 @@ EdgeはWindows Server 2016および2019上で動作するため、仮想化プ�
 
 グローバルファイルキャッシュインテリジェントファイルキャッシュディスク（ D ： \ ）のディスクレイテンシは、同時ユーザーあたり 0.5 ミリ秒未満の平均 I/O ディスクレイテンシと 1 MiBps のスループットを実現する必要があります。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -170,7 +170,7 @@ BlueXPのエッジキャッシングは、お客様の環境に透過的に統�
 
 最適なエクスペリエンスとパフォーマンスを確保するには、『グローバルファイルキャッシュユーザーガイド』に記載されている Microsoft Windows クライアントの要件およびベストプラクティスに準拠することが重要です。これは、すべてのバージョンの Microsoft Windows に適用されます。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -178,7 +178,7 @@ BlueXPのエッジキャッシングは、お客様の環境に透過的に統�
 
 BlueXPのエッジキャッシングでは、最も一般的なウィルス対策アプリケーションスイートがGlobal File Cacheと互換性があるかどうかを検証するために合理的な努力を払っていますが、ネットアップは、これらのプログラムまたはそれらに関連する更新、サービスパック、変更に起因する互換性の問題やパフォーマンスの問題を保証することはできず、責任を負いません。
 
-BlueXPのエッジキャッシュが有効なインスタンス（CoreまたはEdge）には、監視ソリューションやウィルス対策ソリューションをインストールしたり適用したりしないことを推奨します。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+BlueXPのエッジキャッシュが有効なインスタンス（CoreまたはEdge）には、監視ソリューションやウィルス対策ソリューションをインストールしたり適用したりしないことを推奨します。ソリューションをインストールするか、選択したか、またはポリシーに基づいて、次のベストプラクティスと推奨事項を適用する必要があります。一般的なウィルス対策スイートについては、の付録 A を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
@@ -204,12 +204,12 @@ BlueXPのエッジキャッシュが有効なインスタンス（CoreまたはE
 
 === ウィルス対策のベストプラクティス
 
-ネットアップでは、Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、Crowd Strike、Cisco AMP、Tannium、Windows DefenderをBlueXPエッジキャッシングと組み合わせて使用します。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
+ネットアップでは、Cylance、McAfee、Symantec、Sophos、Trend Micro、 Kaspersky、Crowd Strike、Cisco AMP、Tannium、Windows DefenderをBlueXPエッジキャッシングと組み合わせて使用します。ウィルス対策ソフトウェアは、ネットアップの認定を受けたもので、適切な除外リストが設定されている場合にのみサポートされます。の付録Aを参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]
 
 
 NOTE: Edgeアプライアンスにアンチウイルスを追加すると、ユーザーのパフォーマンスに10～20%の影響が生じる可能性があります。
 
-詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
+詳細については、を参照してください https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["『 NetApp Global File Cache User Guide 』を参照してください"^]。
 
 
 
