@@ -131,12 +131,18 @@ Azureでは、127 GBの標準SSDを搭載したD2S_V3または同等の（2 vCPU
 +
 AWS では、 127GB の汎用 SSD を搭載した m4.large インスタンスまたは同等のインスタンス（ 2 vCPU / 8GB RAM ）で実行されます
 
++
+Google Cloudでは、127GBの汎用SSDを搭載したn2-standard-2または同等のインスタンス（vCPU×2 / 8GB RAM）で実行
+
 ** BlueXPエッジキャッシングコア：
 +
-Azure では、 D4s_V3 または 127GB の Premium SSD を搭載した同等の（ vCPU 4 基 / 16GB RAM ） VM で実行されます
+Azureでは、127GBのプレミアムSSDを搭載したD8s_v4または同等のVM（vCPU×8 / 32GB RAM）で実行
 
 +
-AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンスまたは同等のインスタンス（ 4 vCPU / 16GB RAM ）で実行されます
+AWSでは、127GBの汎用SSDを搭載したm4.2xlargeまたは同等のインスタンス（vCPU×8 / 32GB RAM）で実行
+
++
+Google Cloudでは、127GBの汎用SSDを搭載したn2-standard-8または同等のインスタンス（vCPU 8個/ 32GB RAM）で実行
 
 
 

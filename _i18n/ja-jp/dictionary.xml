@@ -74,8 +74,6 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">すべてのインストールで、クラウドに 2 つ以上の仮想マシン（ VM ）を導入する必要もあります。その結果、選択したクラウドプロバイダから料金が発生します。</block>
   <block id="c6b798b0bebd4b2ec1cf891e6cd66c67" category="paragraph">AWS では、 127GB の汎用 SSD を搭載した m4.large インスタンスまたは同等のインスタンス（ 2 vCPU / 8GB RAM ）で実行されます</block>
-  <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">Azure では、 D4s_V3 または 127GB の Premium SSD を搭載した同等の（ vCPU 4 基 / 16GB RAM ） VM で実行されます</block>
-  <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">AWS では、 127GB の汎用 SSD を搭載した m4.xlarge インスタンスまたは同等のインスタンス（ 4 vCPU / 16GB RAM ）で実行されます</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">節約の可能性を計算します</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
   <block id="24b5cd8cad83af73f3fef17c36994df9" category="paragraph">データセンターまたはクラウドに最初のコアインスタンスを導入するときに、そのインスタンスを組織の LMS として指定することができます。この LMS インスタンスは一度設定され、 HTTPS 経由でサブスクリプションサービスに接続し、サブスクリプションの有効化時にサポート / 運用部門から提供されたカスタマー ID を使用してサブスクリプションを検証します。この指定を行ったら、お客様 ID と LMS インスタンスの IP アドレスを入力して、 Edge インスタンスを LMS に関連付けます。</block>
@@ -369,7 +367,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">これは、バックエンドファイルサーバの組み込みBackup Operatorsグループのメンバーである必要があります（これは、BlueXPを使用して展開すると自動的に有効になります）。</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes ONTAP を導入します</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2 つ</block>
@@ -769,4 +766,8 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダのファイルサービスのサポート</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
+  <block id="97928a9e688f12c514398167899b0948" category="paragraph">Google Cloudでは、127GBの汎用SSDを搭載したn2-standard-2または同等のインスタンス（vCPU×2 / 8GB RAM）で実行</block>
+  <block id="37224270f6fe9a8b986d9aebd0580f24" category="paragraph">Azureでは、127GBのプレミアムSSDを搭載したD8s_v4または同等のVM（vCPU×8 / 32GB RAM）で実行</block>
+  <block id="de3597f52173f419dfcb5b6093c8f91b" category="paragraph">AWSでは、127GBの汎用SSDを搭載したm4.2xlargeまたは同等のインスタンス（vCPU×8 / 32GB RAM）で実行</block>
+  <block id="13a8d1c98f73a6d8e45079d3d40dd107" category="paragraph">Google Cloudでは、127GBの汎用SSDを搭載したn2-standard-8または同等のインスタンス（vCPU 8個/ 32GB RAM）で実行</block>
 </blocks>
