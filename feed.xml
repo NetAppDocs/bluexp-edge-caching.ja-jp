@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-edge-caching | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/ja-jp/bluexp-edge-caching/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/ja-jp/bluexp-edge-caching</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>ja-jp</language>
+    <ttl>60</ttl>
+    <pubDate>Mon, 27 Nov 2023 07:13:21 +0000</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2023 07:13:21 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>BlueXPエッジキャッシングの新機能 (1 Aug 2023)</title>
+      <pubDate>Tue, 01 Aug 2023 18:14:54 +0000</pubDate>
+      <link>https://docs.netapp.com/ja-jp/bluexp-edge-caching/whats-new.html?time=1690913694</link>
+      <guid isPermaLink="false">Tue, 01 Aug 2023 18:14:54 +0000</guid>
+      <description><![CDATA[ BlueXPエッジキャッシングの新機能をご紹介します。 ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
